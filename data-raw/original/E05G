@@ -1,0 +1,164 @@
+>From sheng Thu Nov  5 16:26:14 1992
+Date: Thu, 5 Nov 92 16:26:11 -0600
+From: sheng (Guangheng Shen)
+
+Chapter 5, Problem G
+--------------------
+ MTB > print c1-c4 c8 
+  ROW      Y   dum1   dum2  speed speed**2 
+
+    1    255      1      0    150   22500
+    2    246      1      0    175   30625
+    3    249      1      0    200   40000
+    4    260      0      1    150   22500
+    5    223      0      1    175   30625
+    6    231      0      1    200   40000
+    7    265      0      0    150   22500
+    8    247      0      0    175   30625
+    9    256      0      0    200   40000
+
+ MTB > regress c1 3 c2-c4 c5 c6
+ 
+ The regression equation is
+ Y = 307 - 6.00 dum1 - 18.0 dum2 - 0.293 speed
+ 
+ Predictor       Coef       Stdev    t-ratio        p
+ Constant      307.33       32.97       9.32    0.000
+ dum1          -6.000       9.233      -0.65    0.544
+ dum2         -18.000       9.233      -1.95    0.109
+ speed        -0.2933      0.1847      -1.59    0.173
+ 
+ s = 11.31       R-sq = 56.4%     R-sq(adj) = 30.2%
+ 
+ Analysis of Variance
+ 
+ SOURCE       DF          SS          MS         F        p
+ Regression    3       826.7       275.6      2.16    0.212
+ Error         5       639.3       127.9
+ Total         8      1466.0
+ 
+ SOURCE       DF      SEQ SS
+ dum1          1        18.0
+ dum2          1       486.0
+ speed         1       322.7
+ 
+ MTB > set c7
+ DATA> 1 1 1 2 2 2 3 3 3
+ DATA> end
+ MTB > name c7'operator'
+ MTB > name c5'st.resi' c6'yhat'
+ MTB > lplot c5 c6, c7
+ 
+  st.resi -                          B
+          -
+          -
+       1.2+
+          -                               C
+          -                     A
+          -
+          -                                                        C
+       0.0+ B
+          -                                              A
+          -                                  A
+          -
+          -                                            C
+      -1.2+
+          -
+          -              B
+          -
+            ------+---------+---------+---------+---------+---------+yhat    
+              234.0     240.0     246.0     252.0     258.0     264.0
+
+ 
+
+
+ MTB > lplot c1 c4,c7
+ 
+          -
+  Y       -     C
+          -     B
+          -
+       255+     A                                                 C
+          -
+          -                                                       A
+          -                              2
+          -
+       240+
+          -
+          -
+          -                                                       B
+          -
+       225+
+          -                              B
+          -
+            ----+---------+---------+---------+---------+---------+--speed   
+              150       160       170       180       190       200
+ 
+ MTB > name c8'speed**2'
+ MTB > regr c1 4 c2 c3 c4 c8 c9 c10
+ * NOTE *    speed is highly correlated with other  predictor variables
+ * NOTE * speed**2 is highly correlated with other  predictor variables
+ 
+ The regression equation is
+ Y = 984 - 6.00 dum1 - 18.0 dum2 - 8.13 speed + 0.0224 speed**2
+ 
+ Predictor       Coef       Stdev    t-ratio        p
+ Constant       984.0       269.7       3.65    0.022
+ dum1          -6.000       6.420      -0.93    0.403
+ dum2         -18.000       6.420      -2.80    0.049
+ speed         -8.133       3.116      -2.61    0.059
+ speed**2    0.022400    0.008896       2.52    0.066
+ 
+ s = 7.863       R-sq = 83.1%     R-sq(adj) = 66.3%
+ 
+ Analysis of Variance
+ 
+ SOURCE       DF          SS          MS         F        p
+ Regression    4     1218.67      304.67      4.93    0.076
+ Error         4      247.33       61.83
+ Total         8     1466.00
+ 
+
+ SOURCE       DF      SEQ SS
+ dum1          1       18.00
+ dum2          1      486.00
+ speed         1      322.67
+ speed**2      1      392.00
+ 
+ MTB > corr c4 c8
+
+ Correlation of speed and C8 = 0.999
+
+
+
+ 
+ MTB > lplot c9 c10, c7
+ 
+          -
+  C9      -                               B
+          -
+          -
+       1.2+
+          -                    A
+          -
+          -                                    C
+          -                            A
+       0.0+                           C
+          -
+          -                                                      C
+          -             B
+          -
+      -1.2+     B
+          -                                              A
+          -
+            --------+---------+---------+---------+---------+--------C10     
+                232.0     240.0     248.0     256.0     264.0
+ 
+ MTB > let c11=(c4-175)/25
+ MTB > name c11'cspeed'
+ MTB > let c12=c11**2
+ MTB > corr c11 c12
+ 
+ Correlation of cspeed and C12 = 0.000
+
+

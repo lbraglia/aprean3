@@ -1,0 +1,2 @@
+all:
+	ls | nl | less

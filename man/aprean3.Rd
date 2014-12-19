@@ -16,8 +16,7 @@ Regression Analysis" by N.R. Draper and H. Smith (3rd ed.).
 It includes all the datasets used in the book, both for easy reproducibility
 (assuming a didactic point of view) and algorithms benchmarking purposes.
 
-Dataset names are prefixed by 'ds' and lowercased with respect to the
-original sources; furthermore '-' is replaced by '_'.
-Variables have lower-case name.
+Dataset names are prefixed by 'ds' and lowercased; furthermore '-' and
+'.' are replaced by '_'. Finally variables have lower-case name.
 }
 

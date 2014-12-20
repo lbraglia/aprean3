@@ -3,21 +3,20 @@
 \name{dse07b}
 \alias{dse07b}
 \title{E07B data}
-\format{A data.frame with 48 rows and 4 variables:
+\format{A data.frame with 48 rows and 3 variables:
 \describe{
-\item{id}{}
 \item{set1}{}
 \item{set2}{}
 \item{set3}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse07b
 }
 \description{
-dse07b data
+Data for Exercise B, Chapter 07
 }
 \examples{
 dse07b

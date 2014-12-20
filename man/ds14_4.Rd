@@ -3,22 +3,21 @@
 \name{ds14_4}
 \alias{ds14_4}
 \title{14-4 data}
-\format{A data.frame with 9 rows and 5 variables:
+\format{A data.frame with 9 rows and 4 variables:
 \describe{
-\item{id}{}
 \item{x0}{}
 \item{x1}{}
 \item{x2}{}
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 ds14_4
 }
 \description{
-ds14_4 data
+14-4 data
 }
 \examples{
 ds14_4

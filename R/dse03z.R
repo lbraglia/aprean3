@@ -1,14 +1,13 @@
 #' E03Z data
 #' 
-#' dse03z data
+#' Data for Exercise Z, Chapter 03
 #' 
-#' @format A data.frame with 17 rows and 3 variables:
+#' @format A data.frame with 17 rows and 2 variables:
 #' \describe{
-#' \item{id}{}
 #' \item{consumption}{}
 #' \item{population}{}
 #' }
-#' @source Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+#' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
 #' dse03z
 'dse03z'

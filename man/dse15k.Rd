@@ -3,9 +3,8 @@
 \name{dse15k}
 \alias{dse15k}
 \title{E15K data}
-\format{A data.frame with 16 rows and 7 variables:
+\format{A data.frame with 16 rows and 6 variables:
 \describe{
-\item{id}{}
 \item{y1}{}
 \item{y2}{}
 \item{x1}{}
@@ -14,13 +13,13 @@
 \item{x4}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse15k
 }
 \description{
-dse15k data
+Data for Exercise K, Chapter 15
 }
 \examples{
 dse15k

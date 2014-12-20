@@ -17,13 +17,13 @@
 \item{Y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse03cc
 }
 \description{
-dse03cc data
+Data for Exercise CC, Chapter 03
 }
 \examples{
 dse03cc

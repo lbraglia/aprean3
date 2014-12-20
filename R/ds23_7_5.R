@@ -1,10 +1,9 @@
 #' 23-7-5 data
 #' 
-#' ds23_7_5 data
+#' 23-7-5 data
 #' 
-#' @format A data.frame with 24 rows and 13 variables:
+#' @format A data.frame with 24 rows and 12 variables:
 #' \describe{
-#' \item{id}{}
 #' \item{x1}{}
 #' \item{x2}{}
 #' \item{x3}{}
@@ -18,7 +17,7 @@
 #' \item{x11}{}
 #' \item{y}{}
 #' }
-#' @source Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+#' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
 #' ds23_7_5
 'ds23_7_5'

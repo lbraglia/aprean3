@@ -3,9 +3,8 @@
 \name{ds15a}
 \alias{ds15a}
 \title{15A data}
-\format{A data.frame with 13 rows and 6 variables:
+\format{A data.frame with 13 rows and 5 variables:
 \describe{
-\item{id}{}
 \item{x1}{}
 \item{x2}{}
 \item{x3}{}
@@ -13,13 +12,13 @@
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 ds15a
 }
 \description{
-ds15a data
+15A data
 }
 \examples{
 ds15a

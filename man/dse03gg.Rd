@@ -3,20 +3,19 @@
 \name{dse03gg}
 \alias{dse03gg}
 \title{E03GG data}
-\format{A data.frame with 5 rows and 3 variables:
+\format{A data.frame with 5 rows and 2 variables:
 \describe{
-\item{id}{}
 \item{wage}{}
 \item{turnover}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse03gg
 }
 \description{
-dse03gg data
+Data for Exercise GG, Chapter 03
 }
 \examples{
 dse03gg

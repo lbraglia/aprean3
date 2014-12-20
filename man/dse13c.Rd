@@ -3,9 +3,8 @@
 \name{dse13c}
 \alias{dse13c}
 \title{E13C data}
-\format{A data.frame with 11 rows and 7 variables:
+\format{A data.frame with 11 rows and 6 variables:
 \describe{
-\item{id}{}
 \item{x1}{}
 \item{x2}{}
 \item{x3}{}
@@ -14,13 +13,13 @@
 \item{y2}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse13c
 }
 \description{
-dse13c data
+Data for Exercise C, Chapter 13
 }
 \examples{
 dse13c

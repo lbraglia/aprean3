@@ -1,10 +1,9 @@
 #' E24N data
 #' 
-#' dse24n data
+#' Data for Exercise N, Chapter 24
 #' 
-#' @format A data.frame with 7 rows and 7 variables:
+#' @format A data.frame with 7 rows and 6 variables:
 #' \describe{
-#' \item{id}{}
 #' \item{t}{}
 #' \item{w1}{}
 #' \item{w2}{}
@@ -12,7 +11,7 @@
 #' \item{w4}{}
 #' \item{w5}{}
 #' }
-#' @source Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+#' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
 #' dse24n
 'dse24n'

@@ -1,10 +1,9 @@
 #' 01A data
 #' 
-#' ds01a data
+#' 01A data
 #' 
-#' @format A data.frame with 25 rows and 11 variables:
+#' @format A data.frame with 25 rows and 10 variables:
 #' \describe{
-#' \item{id}{}
 #' \item{x1}{}
 #' \item{x2}{}
 #' \item{x3}{}
@@ -16,7 +15,7 @@
 #' \item{x9}{}
 #' \item{x10}{}
 #' }
-#' @source Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+#' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
 #' ds01a
 'ds01a'

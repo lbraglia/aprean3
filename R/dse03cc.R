@@ -1,6 +1,6 @@
 #' E03CC data
 #' 
-#' dse03cc data
+#' Data for Exercise CC, Chapter 03
 #' 
 #' @format A data.frame with 10 rows and 10 variables:
 #' \describe{
@@ -15,7 +15,7 @@
 #' \item{and}{}
 #' \item{Y}{}
 #' }
-#' @source Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+#' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
 #' dse03cc
 'dse03cc'

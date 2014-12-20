@@ -3,22 +3,21 @@
 \name{dse14t}
 \alias{dse14t}
 \title{E14T data}
-\format{A data.frame with 15 rows and 5 variables:
+\format{A data.frame with 15 rows and 4 variables:
 \describe{
-\item{id}{}
 \item{x}{}
 \item{z}{}
 \item{xz}{}
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse14t
 }
 \description{
-dse14t data
+Data for Exercise T, Chapter 14
 }
 \examples{
 dse14t

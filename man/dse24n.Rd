@@ -3,9 +3,8 @@
 \name{dse24n}
 \alias{dse24n}
 \title{E24N data}
-\format{A data.frame with 7 rows and 7 variables:
+\format{A data.frame with 7 rows and 6 variables:
 \describe{
-\item{id}{}
 \item{t}{}
 \item{w1}{}
 \item{w2}{}
@@ -14,13 +13,13 @@
 \item{w5}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse24n
 }
 \description{
-dse24n data
+Data for Exercise N, Chapter 24
 }
 \examples{
 dse24n

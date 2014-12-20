@@ -3,21 +3,20 @@
 \name{dse16c}
 \alias{dse16c}
 \title{E16C data}
-\format{A data.frame with 7 rows and 4 variables:
+\format{A data.frame with 7 rows and 3 variables:
 \describe{
-\item{id}{}
 \item{x1}{}
 \item{x2}{}
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse16c
 }
 \description{
-dse16c data
+Data for Exercise C, Chapter 16
 }
 \examples{
 dse16c

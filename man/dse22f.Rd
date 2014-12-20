@@ -3,9 +3,8 @@
 \name{dse22f}
 \alias{dse22f}
 \title{E22F data}
-\format{A data.frame with 12 rows and 8 variables:
+\format{A data.frame with 12 rows and 7 variables:
 \describe{
-\item{id}{}
 \item{y}{}
 \item{x1}{}
 \item{x2}{}
@@ -15,13 +14,13 @@
 \item{x6}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse22f
 }
 \description{
-dse22f data
+Data for Exercise F, Chapter 22
 }
 \examples{
 dse22f

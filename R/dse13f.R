@@ -1,15 +1,14 @@
 #' E13F data
 #' 
-#' dse13f data
+#' Data for Exercise F, Chapter 13
 #' 
-#' @format A data.frame with 16 rows and 4 variables:
+#' @format A data.frame with 16 rows and 3 variables:
 #' \describe{
-#' \item{id}{}
 #' \item{x1}{}
 #' \item{x2}{}
 #' \item{y}{}
 #' }
-#' @source Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+#' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
 #' dse13f
 'dse13f'

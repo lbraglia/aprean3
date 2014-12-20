@@ -3,22 +3,21 @@
 \name{dse15b}
 \alias{dse15b}
 \title{E15B data}
-\format{A data.frame with 9 rows and 5 variables:
+\format{A data.frame with 9 rows and 4 variables:
 \describe{
-\item{id}{}
 \item{x1}{}
 \item{x2}{}
 \item{x3}{}
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse15b
 }
 \description{
-dse15b data
+Data for Exercise B, Chapter 15
 }
 \examples{
 dse15b

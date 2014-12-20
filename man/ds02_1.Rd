@@ -3,20 +3,19 @@
 \name{ds02_1}
 \alias{ds02_1}
 \title{02-1 data}
-\format{A data.frame with 23 rows and 3 variables:
+\format{A data.frame with 23 rows and 2 variables:
 \describe{
-\item{id}{}
 \item{y}{}
 \item{x}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 ds02_1
 }
 \description{
-ds02_1 data
+02-1 data
 }
 \examples{
 ds02_1

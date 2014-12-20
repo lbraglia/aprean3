@@ -3,21 +3,20 @@
 \name{dse14l}
 \alias{dse14l}
 \title{E14L data}
-\format{A data.frame with 8 rows and 4 variables:
+\format{A data.frame with 8 rows and 3 variables:
 \describe{
-\item{id}{}
 \item{x}{}
 \item{dummy}{}
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse14l
 }
 \description{
-dse14l data
+Data for Exercise L, Chapter 14
 }
 \examples{
 dse14l

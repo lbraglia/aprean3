@@ -1,16 +1,15 @@
 #' E14T data
 #' 
-#' dse14t data
+#' Data for Exercise T, Chapter 14
 #' 
-#' @format A data.frame with 15 rows and 5 variables:
+#' @format A data.frame with 15 rows and 4 variables:
 #' \describe{
-#' \item{id}{}
 #' \item{x}{}
 #' \item{z}{}
 #' \item{xz}{}
 #' \item{y}{}
 #' }
-#' @source Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+#' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
 #' dse14t
 'dse14t'

@@ -13,13 +13,13 @@
 \item{speed2}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse05g
 }
 \description{
-dse05g data
+Data for Exercise G, Chapter 05
 }
 \examples{
 dse05g

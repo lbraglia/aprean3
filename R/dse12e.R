@@ -1,17 +1,16 @@
 #' E12E data
 #' 
-#' dse12e data
+#' Data for Exercise E, Chapter 12
 #' 
-#' @format A data.frame with 28 rows and 6 variables:
+#' @format A data.frame with 28 rows and 5 variables:
 #' \describe{
-#' \item{id}{}
 #' \item{fat}{}
 #' \item{flour}{}
 #' \item{water}{}
 #' \item{rpm}{}
 #' \item{y}{}
 #' }
-#' @source Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+#' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
 #' dse12e
 'dse12e'

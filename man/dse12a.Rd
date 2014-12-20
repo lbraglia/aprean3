@@ -3,9 +3,8 @@
 \name{dse12a}
 \alias{dse12a}
 \title{E12A data}
-\format{A data.frame with 18 rows and 6 variables:
+\format{A data.frame with 18 rows and 5 variables:
 \describe{
-\item{id}{}
 \item{x1}{}
 \item{x2}{}
 \item{x3}{}
@@ -13,13 +12,13 @@
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse12a
 }
 \description{
-dse12a data
+Data for Exercise A, Chapter 12
 }
 \examples{
 dse12a

@@ -3,21 +3,20 @@
 \name{ds13_2}
 \alias{ds13_2}
 \title{13-2 data}
-\format{A data.frame with 23 rows and 4 variables:
+\format{A data.frame with 23 rows and 3 variables:
 \describe{
-\item{id}{}
 \item{p}{}
 \item{f}{}
 \item{Y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 ds13_2
 }
 \description{
-ds13_2 data
+13-2 data
 }
 \examples{
 ds13_2

@@ -3,20 +3,19 @@
 \name{dse03r}
 \alias{dse03r}
 \title{E03R data}
-\format{A data.frame with 43 rows and 3 variables:
+\format{A data.frame with 43 rows and 2 variables:
 \describe{
-\item{id}{}
 \item{t}{}
 \item{a}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse03r
 }
 \description{
-dse03r data
+Data for Exercise R, Chapter 03
 }
 \examples{
 dse03r

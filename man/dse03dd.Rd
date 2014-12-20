@@ -3,20 +3,19 @@
 \name{dse03dd}
 \alias{dse03dd}
 \title{E03DD data}
-\format{A data.frame with 9 rows and 3 variables:
+\format{A data.frame with 9 rows and 2 variables:
 \describe{
-\item{id}{}
 \item{t}{}
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse03dd
 }
 \description{
-dse03dd data
+Data for Exercise DD, Chapter 03
 }
 \examples{
 dse03dd

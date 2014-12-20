@@ -1,14 +1,13 @@
 #' E24A data
 #' 
-#' dse24a data
+#' Data for Exercise A, Chapter 24
 #' 
-#' @format A data.frame with 3 rows and 3 variables:
+#' @format A data.frame with 3 rows and 2 variables:
 #' \describe{
-#' \item{id}{}
 #' \item{t}{}
 #' \item{y}{}
 #' }
-#' @source Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+#' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
 #' dse24a
 'dse24a'

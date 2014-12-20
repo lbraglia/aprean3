@@ -1,14 +1,13 @@
 #' E03K data
 #' 
-#' dse03k data
+#' Data for Exercise K, Chapter 03
 #' 
-#' @format A data.frame with 34 rows and 3 variables:
+#' @format A data.frame with 34 rows and 2 variables:
 #' \describe{
-#' \item{id}{}
 #' \item{y}{}
 #' \item{x}{}
 #' }
-#' @source Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+#' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
 #' dse03k
 'dse03k'

@@ -3,20 +3,19 @@
 \name{dse03ll}
 \alias{dse03ll}
 \title{E03LL data}
-\format{A data.frame with 13 rows and 3 variables:
+\format{A data.frame with 13 rows and 2 variables:
 \describe{
-\item{id}{}
 \item{y}{}
 \item{x}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse03ll
 }
 \description{
-dse03ll data
+Data for Exercise LL, Chapter 03
 }
 \examples{
 dse03ll

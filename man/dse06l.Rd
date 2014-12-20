@@ -3,22 +3,21 @@
 \name{dse06l}
 \alias{dse06l}
 \title{E06L data}
-\format{A data.frame with 9 rows and 5 variables:
+\format{A data.frame with 9 rows and 4 variables:
 \describe{
-\item{id}{}
 \item{batchn}{}
 \item{t}{}
 \item{c}{}
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse06l
 }
 \description{
-dse06l data
+Data for Exercise L, Chapter 06
 }
 \examples{
 dse06l

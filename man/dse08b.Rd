@@ -3,20 +3,19 @@
 \name{dse08b}
 \alias{dse08b}
 \title{E08B data}
-\format{A data.frame with 5 rows and 3 variables:
+\format{A data.frame with 5 rows and 2 variables:
 \describe{
-\item{id}{}
 \item{x}{}
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse08b
 }
 \description{
-dse08b data
+Data for Exercise B, Chapter 08
 }
 \examples{
 dse08b

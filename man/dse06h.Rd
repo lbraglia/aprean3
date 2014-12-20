@@ -3,21 +3,20 @@
 \name{dse06h}
 \alias{dse06h}
 \title{E06H data}
-\format{A data.frame with 13 rows and 4 variables:
+\format{A data.frame with 13 rows and 3 variables:
 \describe{
-\item{id}{}
 \item{y}{}
 \item{x}{}
 \item{z}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse06h
 }
 \description{
-dse06h data
+Data for Exercise H, Chapter 06
 }
 \examples{
 dse06h

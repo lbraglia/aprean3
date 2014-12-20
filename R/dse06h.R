@@ -1,15 +1,14 @@
 #' E06H data
 #' 
-#' dse06h data
+#' Data for Exercise H, Chapter 06
 #' 
-#' @format A data.frame with 13 rows and 4 variables:
+#' @format A data.frame with 13 rows and 3 variables:
 #' \describe{
-#' \item{id}{}
 #' \item{y}{}
 #' \item{x}{}
 #' \item{z}{}
 #' }
-#' @source Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+#' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
 #' dse06h
 'dse06h'

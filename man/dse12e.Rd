@@ -3,9 +3,8 @@
 \name{dse12e}
 \alias{dse12e}
 \title{E12E data}
-\format{A data.frame with 28 rows and 6 variables:
+\format{A data.frame with 28 rows and 5 variables:
 \describe{
-\item{id}{}
 \item{fat}{}
 \item{flour}{}
 \item{water}{}
@@ -13,13 +12,13 @@
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse12e
 }
 \description{
-dse12e data
+Data for Exercise E, Chapter 12
 }
 \examples{
 dse12e

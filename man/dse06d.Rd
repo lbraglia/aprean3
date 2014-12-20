@@ -3,21 +3,20 @@
 \name{dse06d}
 \alias{dse06d}
 \title{E06D data}
-\format{A data.frame with 8 rows and 4 variables:
+\format{A data.frame with 8 rows and 3 variables:
 \describe{
-\item{id}{}
 \item{y}{}
 \item{x1}{}
 \item{x2}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse06d
 }
 \description{
-dse06d data
+Data for Exercise D, Chapter 06
 }
 \examples{
 dse06d

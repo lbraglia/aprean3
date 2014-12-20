@@ -3,20 +3,19 @@
 \name{dse17b}
 \alias{dse17b}
 \title{E17B data}
-\format{A data.frame with 8 rows and 3 variables:
+\format{A data.frame with 8 rows and 2 variables:
 \describe{
-\item{id}{}
 \item{x}{}
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse17b
 }
 \description{
-dse17b data
+Data for Exercise B, Chapter 17
 }
 \examples{
 dse17b

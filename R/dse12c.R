@@ -1,14 +1,13 @@
 #' E12C data
 #' 
-#' dse12c data
+#' Data for Exercise C, Chapter 12
 #' 
-#' @format A data.frame with 24 rows and 3 variables:
+#' @format A data.frame with 24 rows and 2 variables:
 #' \describe{
-#' \item{id}{}
 #' \item{t}{}
 #' \item{y}{}
 #' }
-#' @source Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+#' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
 #' dse12c
 'dse12c'

@@ -1,10 +1,9 @@
 #' E15E data
 #' 
-#' dse15e data
+#' Data for Exercise E, Chapter 15
 #' 
-#' @format A data.frame with 90 rows and 9 variables:
+#' @format A data.frame with 90 rows and 8 variables:
 #' \describe{
-#' \item{id}{}
 #' \item{y}{}
 #' \item{x1}{}
 #' \item{x2}{}
@@ -14,7 +13,7 @@
 #' \item{x6}{}
 #' \item{x7}{}
 #' }
-#' @source Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+#' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
 #' dse15e
 'dse15e'

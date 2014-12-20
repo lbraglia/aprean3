@@ -3,9 +3,8 @@
 \name{dse15c}
 \alias{dse15c}
 \title{E15C data}
-\format{A data.frame with 20 rows and 7 variables:
+\format{A data.frame with 20 rows and 6 variables:
 \describe{
-\item{id}{}
 \item{x1}{}
 \item{x2}{}
 \item{x3}{}
@@ -14,13 +13,13 @@
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse15c
 }
 \description{
-dse15c data
+Data for Exercise C, Chapter 15
 }
 \examples{
 dse15c

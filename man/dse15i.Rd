@@ -3,9 +3,8 @@
 \name{dse15i}
 \alias{dse15i}
 \title{E15I data}
-\format{A data.frame with 48 rows and 7 variables:
+\format{A data.frame with 48 rows and 6 variables:
 \describe{
-\item{id}{}
 \item{x1}{}
 \item{x2}{}
 \item{x3}{}
@@ -14,13 +13,13 @@
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse15i
 }
 \description{
-dse15i data
+Data for Exercise I, Chapter 15
 }
 \examples{
 dse15i

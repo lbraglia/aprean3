@@ -3,9 +3,8 @@
 \name{ds14_6}
 \alias{ds14_6}
 \title{14-6 data}
-\format{A data.frame with 9 rows and 6 variables:
+\format{A data.frame with 9 rows and 5 variables:
 \describe{
-\item{id}{}
 \item{x0}{}
 \item{x1}{}
 \item{x2}{}
@@ -13,13 +12,13 @@
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 ds14_6
 }
 \description{
-ds14_6 data
+14-6 data
 }
 \examples{
 ds14_6

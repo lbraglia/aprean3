@@ -1,6 +1,6 @@
 #' E05G data
 #' 
-#' dse05g data
+#' Data for Exercise G, Chapter 05
 #' 
 #' @format A data.frame with 9 rows and 6 variables:
 #' \describe{
@@ -11,7 +11,7 @@
 #' \item{speed}{}
 #' \item{speed2}{}
 #' }
-#' @source Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+#' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
 #' dse05g
 'dse05g'

@@ -3,20 +3,19 @@
 \name{dse03o}
 \alias{dse03o}
 \title{E03O data}
-\format{A data.frame with 7 rows and 3 variables:
+\format{A data.frame with 7 rows and 2 variables:
 \describe{
-\item{id}{}
 \item{x}{}
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse03o
 }
 \description{
-dse03o data
+Data for Exercise O, Chapter 03
 }
 \examples{
 dse03o

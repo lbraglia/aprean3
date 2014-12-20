@@ -3,22 +3,21 @@
 \name{dse19d}
 \alias{dse19d}
 \title{E19D data}
-\format{A data.frame with 8 rows and 5 variables:
+\format{A data.frame with 8 rows and 4 variables:
 \describe{
-\item{id}{}
 \item{x1}{}
 \item{x2}{}
 \item{x3}{}
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse19d
 }
 \description{
-dse19d data
+Data for Exercise D, Chapter 19
 }
 \examples{
 dse19d

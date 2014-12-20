@@ -3,20 +3,19 @@
 \name{dse24c}
 \alias{dse24c}
 \title{E24C data}
-\format{A data.frame with 4 rows and 3 variables:
+\format{A data.frame with 4 rows and 2 variables:
 \describe{
-\item{id}{}
 \item{x}{}
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse24c
 }
 \description{
-dse24c data
+Data for Exercise C, Chapter 24
 }
 \examples{
 dse24c

@@ -3,9 +3,8 @@
 \name{dse13h}
 \alias{dse13h}
 \title{E13H data}
-\format{A data.frame with 8 rows and 6 variables:
+\format{A data.frame with 8 rows and 5 variables:
 \describe{
-\item{id}{}
 \item{x1}{}
 \item{x2}{}
 \item{x3}{}
@@ -13,13 +12,13 @@
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse13h
 }
 \description{
-dse13h data
+Data for Exercise H, Chapter 13
 }
 \examples{
 dse13h

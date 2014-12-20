@@ -3,9 +3,8 @@
 \name{ds19_2}
 \alias{ds19_2}
 \title{19-2 data}
-\format{A data.frame with 36 rows and 9 variables:
+\format{A data.frame with 36 rows and 8 variables:
 \describe{
-\item{id}{}
 \item{z2}{}
 \item{z3}{}
 \item{z4}{}
@@ -16,13 +15,13 @@
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 ds19_2
 }
 \description{
-ds19_2 data
+19-2 data
 }
 \examples{
 ds19_2

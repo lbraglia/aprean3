@@ -3,21 +3,20 @@
 \name{dse09b}
 \alias{dse09b}
 \title{E09B data}
-\format{A data.frame with 5 rows and 4 variables:
+\format{A data.frame with 5 rows and 3 variables:
 \describe{
-\item{id}{}
 \item{x1}{}
 \item{x2}{}
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse09b
 }
 \description{
-dse09b data
+Data for Exercise B, Chapter 09
 }
 \examples{
 dse09b

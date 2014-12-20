@@ -3,22 +3,21 @@
 \name{dse16a}
 \alias{dse16a}
 \title{E16A data}
-\format{A data.frame with 5 rows and 5 variables:
+\format{A data.frame with 5 rows and 4 variables:
 \describe{
-\item{id}{}
 \item{x1}{}
 \item{x2}{}
 \item{x3}{}
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse16a
 }
 \description{
-dse16a data
+Data for Exercise A, Chapter 16
 }
 \examples{
 dse16a

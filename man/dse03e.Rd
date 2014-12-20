@@ -3,21 +3,20 @@
 \name{dse03e}
 \alias{dse03e}
 \title{E03E data}
-\format{A data.frame with 7 rows and 4 variables:
+\format{A data.frame with 7 rows and 3 variables:
 \describe{
-\item{id}{}
 \item{x}{}
 \item{y1}{}
 \item{y2}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse03e
 }
 \description{
-dse03e data
+Data for Exercise E, Chapter 03
 }
 \examples{
 dse03e

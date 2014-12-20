@@ -1,10 +1,9 @@
 #' E15P data
 #' 
-#' dse15p data
+#' Data for Exercise P, Chapter 15
 #' 
-#' @format A data.frame with 16 rows and 7 variables:
+#' @format A data.frame with 16 rows and 6 variables:
 #' \describe{
-#' \item{id}{}
 #' \item{x1}{}
 #' \item{x2}{}
 #' \item{x3}{}
@@ -12,7 +11,7 @@
 #' \item{x5}{}
 #' \item{y}{}
 #' }
-#' @source Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+#' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
 #' dse15p
 'dse15p'

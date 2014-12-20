@@ -3,20 +3,19 @@
 \name{dse24k}
 \alias{dse24k}
 \title{E24K data}
-\format{A data.frame with 5 rows and 3 variables:
+\format{A data.frame with 5 rows and 2 variables:
 \describe{
-\item{id}{}
 \item{t}{}
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse24k
 }
 \description{
-dse24k data
+Data for Exercise K, Chapter 24
 }
 \examples{
 dse24k

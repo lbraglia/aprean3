@@ -1,16 +1,15 @@
 #' E14R data
 #' 
-#' dse14r data
+#' Data for Exercise R, Chapter 14
 #' 
-#' @format A data.frame with 48 rows and 5 variables:
+#' @format A data.frame with 48 rows and 4 variables:
 #' \describe{
-#' \item{id}{}
 #' \item{boot}{}
 #' \item{subject}{}
 #' \item{temperature}{}
 #' \item{drop}{}
 #' }
-#' @source Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+#' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
 #' dse14r
 'dse14r'

@@ -3,21 +3,20 @@
 \name{dse04f}
 \alias{dse04f}
 \title{E04F data}
-\format{A data.frame with 10 rows and 4 variables:
+\format{A data.frame with 10 rows and 3 variables:
 \describe{
-\item{id}{}
 \item{x}{}
 \item{y}{}
 \item{xy}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse04f
 }
 \description{
-dse04f data
+Data for Exercise F, Chapter 04
 }
 \examples{
 dse04f

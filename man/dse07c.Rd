@@ -3,9 +3,8 @@
 \name{dse07c}
 \alias{dse07c}
 \title{E07C data}
-\format{A data.frame with 50 rows and 8 variables:
+\format{A data.frame with 50 rows and 7 variables:
 \describe{
-\item{id}{}
 \item{y}{}
 \item{x1}{}
 \item{x2}{}
@@ -15,13 +14,13 @@
 \item{x6}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse07c
 }
 \description{
-dse07c data
+Data for Exercise C, Chapter 07
 }
 \examples{
 dse07c

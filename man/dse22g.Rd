@@ -3,9 +3,8 @@
 \name{dse22g}
 \alias{dse22g}
 \title{E22G data}
-\format{A data.frame with 24 rows and 7 variables:
+\format{A data.frame with 24 rows and 6 variables:
 \describe{
-\item{id}{}
 \item{age}{}
 \item{n}{}
 \item{weight}{}
@@ -14,13 +13,13 @@
 \item{z2}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse22g
 }
 \description{
-dse22g data
+Data for Exercise G, Chapter 22
 }
 \examples{
 dse22g

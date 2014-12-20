@@ -3,20 +3,19 @@
 \name{dse24b}
 \alias{dse24b}
 \title{E24B data}
-\format{A data.frame with 12 rows and 3 variables:
+\format{A data.frame with 12 rows and 2 variables:
 \describe{
-\item{id}{}
 \item{t}{}
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 dse24b
 }
 \description{
-dse24b data
+Data for Exercise B, Chapter 24
 }
 \examples{
 dse24b

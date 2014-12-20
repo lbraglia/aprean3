@@ -3,9 +3,8 @@
 \name{ds23_7_5}
 \alias{ds23_7_5}
 \title{23-7-5 data}
-\format{A data.frame with 24 rows and 13 variables:
+\format{A data.frame with 24 rows and 12 variables:
 \describe{
-\item{id}{}
 \item{x1}{}
 \item{x2}{}
 \item{x3}{}
@@ -20,13 +19,13 @@
 \item{y}{}
 }}
 \source{
-Draper, X.Y., Smith, X.Y., (1999) Applied Regression Analyis, 3rd ed., New York: Wiley
+Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 }
 \usage{
 ds23_7_5
 }
 \description{
-ds23_7_5 data
+23-7-5 data
 }
 \examples{
 ds23_7_5

@@ -1,6 +1,6 @@
 #' 23-3-3 data
 #' 
-#' 23-3-3 data
+#' Dataset for Equation 23.3.3
 #' 
 #' @format A data.frame with 30 rows and 5 variables:
 #' \describe{

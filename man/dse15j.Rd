@@ -20,7 +20,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 dse15j
 }
 \description{
-Data for Exercise J, Chapter 15
+Dataset for Exercise J, Chapter 15
 }
 \examples{
 dse15j

@@ -20,7 +20,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 dse07c
 }
 \description{
-Data for Exercise C, Chapter 07
+Dataset for Exercise C, Chapter 07
 }
 \examples{
 dse07c

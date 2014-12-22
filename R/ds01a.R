@@ -1,6 +1,6 @@
 #' 01A data
 #' 
-#' 01A data
+#' Dataset for Appendix A, Chapter 01
 #' 
 #' @format A data.frame with 25 rows and 10 variables:
 #' \describe{

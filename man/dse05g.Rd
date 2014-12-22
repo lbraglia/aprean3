@@ -19,7 +19,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 dse05g
 }
 \description{
-Data for Exercise G, Chapter 05
+Dataset for Exercise G, Chapter 05
 }
 \examples{
 dse05g

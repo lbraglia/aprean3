@@ -1,6 +1,6 @@
 #' 25-3 data
 #' 
-#' 25-3 data
+#' Dataset for Section 25.3
 #' 
 #' @format A data.frame with 25 rows and 2 variables:
 #' \describe{

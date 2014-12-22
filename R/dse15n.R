@@ -1,6 +1,6 @@
 #' E15N data
 #' 
-#' Data for Exercise N, Chapter 15
+#' Dataset for Exercise N, Chapter 15
 #' 
 #' @format A data.frame with 21 rows and 4 variables:
 #' \describe{

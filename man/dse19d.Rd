@@ -17,7 +17,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 dse19d
 }
 \description{
-Data for Exercise D, Chapter 19
+Dataset for Exercise D, Chapter 19
 }
 \examples{
 dse19d

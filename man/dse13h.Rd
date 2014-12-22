@@ -18,7 +18,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 dse13h
 }
 \description{
-Data for Exercise H, Chapter 13
+Dataset for Exercise H, Chapter 13
 }
 \examples{
 dse13h

@@ -23,7 +23,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 dse03cc
 }
 \description{
-Data for Exercise CC, Chapter 03
+Dataset for Exercise CC, Chapter 03
 }
 \examples{
 dse03cc

@@ -1,6 +1,6 @@
 #' E03CC data
 #' 
-#' Data for Exercise CC, Chapter 03
+#' Dataset for Exercise CC, Chapter 03
 #' 
 #' @format A data.frame with 10 rows and 10 variables:
 #' \describe{

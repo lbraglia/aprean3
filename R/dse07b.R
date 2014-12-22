@@ -1,6 +1,6 @@
 #' E07B data
 #' 
-#' Data for Exercise B, Chapter 07
+#' Dataset for Exercise B, Chapter 07
 #' 
 #' @format A data.frame with 48 rows and 3 variables:
 #' \describe{

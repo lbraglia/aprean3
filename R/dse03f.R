@@ -1,6 +1,6 @@
 #' E03F data
 #' 
-#' Data for Exercise F, Chapter 03
+#' Dataset for Exercise F, Chapter 03
 #' 
 #' @format A data.frame with 12 rows and 2 variables:
 #' \describe{

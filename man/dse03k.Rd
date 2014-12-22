@@ -15,7 +15,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 dse03k
 }
 \description{
-Data for Exercise K, Chapter 03
+Dataset for Exercise K, Chapter 03
 }
 \examples{
 dse03k

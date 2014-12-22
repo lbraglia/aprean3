@@ -16,7 +16,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 dse24j
 }
 \description{
-Data for Exercise J, Chapter 24
+Dataset for Exercise J, Chapter 24
 }
 \examples{
 dse24j

@@ -1,4 +1,4 @@
-#' E03CC data
+#' Dataset for Exercise CC, Chapter 03
 #' 
 #' Dataset for Exercise CC, Chapter 03
 #' 

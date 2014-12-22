@@ -1,4 +1,4 @@
-#' E13F data
+#' Dataset for Exercise F, Chapter 13
 #' 
 #' Dataset for Exercise F, Chapter 13
 #' 

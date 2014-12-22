@@ -2,7 +2,7 @@
 \docType{data}
 \name{ds15a}
 \alias{ds15a}
-\title{15A data}
+\title{Dataset for Appendix A, Chapter 15}
 \format{A data.frame with 13 rows and 5 variables:
 \describe{
 \item{x1}{}
@@ -18,7 +18,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 ds15a
 }
 \description{
-15A data
+Dataset for Appendix A, Chapter 15
 }
 \examples{
 ds15a

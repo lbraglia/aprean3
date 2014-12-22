@@ -1,4 +1,4 @@
-#' E07C data
+#' Dataset for Exercise C, Chapter 07
 #' 
 #' Dataset for Exercise C, Chapter 07
 #' 

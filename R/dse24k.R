@@ -1,4 +1,4 @@
-#' E24K data
+#' Dataset for Exercise K, Chapter 24
 #' 
 #' Dataset for Exercise K, Chapter 24
 #' 

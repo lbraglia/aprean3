@@ -1,4 +1,4 @@
-#' E24H data
+#' Dataset for Exercise H, Chapter 24
 #' 
 #' Dataset for Exercise H, Chapter 24
 #' 

@@ -1,4 +1,4 @@
-#' E15I data
+#' Dataset for Exercise I, Chapter 15
 #' 
 #' Dataset for Exercise I, Chapter 15
 #' 

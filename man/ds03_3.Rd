@@ -2,7 +2,7 @@
 \docType{data}
 \name{ds03_3}
 \alias{ds03_3}
-\title{03-3 data}
+\title{Dataset for Section 03.3}
 \format{A data.frame with 20 rows and 2 variables:
 \describe{
 \item{x}{}
@@ -15,7 +15,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 ds03_3
 }
 \description{
-03-3 data
+Dataset for Section 03.3
 }
 \examples{
 ds03_3

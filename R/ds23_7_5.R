@@ -1,4 +1,4 @@
-#' 23-7-5 data
+#' Dataset for Equation 23.7.5
 #' 
 #' Dataset for Equation 23.7.5
 #' 

@@ -1,4 +1,4 @@
-#' E08B data
+#' Dataset for Exercise B, Chapter 08
 #' 
 #' Dataset for Exercise B, Chapter 08
 #' 

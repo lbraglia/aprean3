@@ -1,4 +1,4 @@
-#' E06J data
+#' Dataset for Exercise J, Chapter 06
 #' 
 #' Dataset for Exercise J, Chapter 06
 #' 

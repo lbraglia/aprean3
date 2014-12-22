@@ -42,8 +42,6 @@ description <- function(x) {
     sprintf("%s data", x)
 }
 
-
-
 ## ------
 ## Status
 ## ------
@@ -82,7 +80,7 @@ doc.fun <- function(x){
   dfName <- comment(x)
   ## Header section
   Header <- c(
-    sprintf("#' %s data", attr(x, "originalName") ),
+    sprintf("#' %s", attr(x, "description") ),
     "#' ",
     sprintf("#' %s"     , attr(x, "description")),
     "#' "

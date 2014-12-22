@@ -2,7 +2,7 @@
 \docType{data}
 \name{dse06l}
 \alias{dse06l}
-\title{E06L data}
+\title{Dataset for Exercise L, Chapter 06}
 \format{A data.frame with 9 rows and 4 variables:
 \describe{
 \item{batchn}{}

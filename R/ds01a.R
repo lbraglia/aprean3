@@ -1,4 +1,4 @@
-#' 01A data
+#' Dataset for Appendix A, Chapter 01
 #' 
 #' Dataset for Appendix A, Chapter 01
 #' 

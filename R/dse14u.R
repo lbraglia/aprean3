@@ -1,4 +1,4 @@
-#' E14U data
+#' Dataset for Exercise U, Chapter 14
 #' 
 #' Dataset for Exercise U, Chapter 14
 #' 

@@ -1,4 +1,4 @@
-#' E16D data
+#' Dataset for Exercise D, Chapter 16
 #' 
 #' Dataset for Exercise D, Chapter 16
 #' 

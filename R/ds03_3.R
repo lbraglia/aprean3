@@ -1,4 +1,4 @@
-#' 03-3 data
+#' Dataset for Section 03.3
 #' 
 #' Dataset for Section 03.3
 #' 

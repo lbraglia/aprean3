@@ -2,7 +2,7 @@
 \docType{data}
 \name{ds01a}
 \alias{ds01a}
-\title{01A data}
+\title{Dataset for Appendix A, Chapter 01}
 \format{A data.frame with 25 rows and 10 variables:
 \describe{
 \item{x1}{}
@@ -23,7 +23,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 ds01a
 }
 \description{
-01A data
+Dataset for Appendix A, Chapter 01
 }
 \examples{
 ds01a

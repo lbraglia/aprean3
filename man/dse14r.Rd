@@ -2,7 +2,7 @@
 \docType{data}
 \name{dse14r}
 \alias{dse14r}
-\title{E14R data}
+\title{Dataset for Exercise R, Chapter 14}
 \format{A data.frame with 48 rows and 4 variables:
 \describe{
 \item{boot}{}

@@ -2,7 +2,7 @@
 \docType{data}
 \name{ds24_2}
 \alias{ds24_2}
-\title{24-2 data}
+\title{Dataset for Section 24.2}
 \format{A data.frame with 44 rows and 2 variables:
 \describe{
 \item{x}{}
@@ -15,7 +15,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 ds24_2
 }
 \description{
-24-2 data
+Dataset for Section 24.2
 }
 \examples{
 ds24_2

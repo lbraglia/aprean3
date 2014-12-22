@@ -2,7 +2,7 @@
 \docType{data}
 \name{ds14_5}
 \alias{ds14_5}
-\title{14-5 data}
+\title{Dataset for Section 14.5}
 \format{A data.frame with 9 rows and 4 variables:
 \describe{
 \item{x0}{}
@@ -17,7 +17,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 ds14_5
 }
 \description{
-14-5 data
+Dataset for Section 14.5
 }
 \examples{
 ds14_5

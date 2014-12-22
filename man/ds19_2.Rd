@@ -2,7 +2,7 @@
 \docType{data}
 \name{ds19_2}
 \alias{ds19_2}
-\title{19-2 data}
+\title{Dataset for Section 19.2}
 \format{A data.frame with 36 rows and 8 variables:
 \describe{
 \item{z2}{}
@@ -21,7 +21,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 ds19_2
 }
 \description{
-19-2 data
+Dataset for Section 19.2
 }
 \examples{
 ds19_2

@@ -1,4 +1,4 @@
-#' 15A data
+#' Dataset for Appendix A, Chapter 15
 #' 
 #' Dataset for Appendix A, Chapter 15
 #' 

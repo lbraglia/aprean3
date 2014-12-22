@@ -2,7 +2,7 @@
 \docType{data}
 \name{dse04e}
 \alias{dse04e}
-\title{E04E data}
+\title{Dataset for Exercise E, Chapter 04}
 \format{A data.frame with 10 rows and 2 variables:
 \describe{
 \item{x}{}

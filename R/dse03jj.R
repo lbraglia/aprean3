@@ -1,4 +1,4 @@
-#' E03JJ data
+#' Dataset for Exercise JJ, Chapter 03
 #' 
 #' Dataset for Exercise JJ, Chapter 03
 #' 

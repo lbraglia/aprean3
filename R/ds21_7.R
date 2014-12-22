@@ -1,4 +1,4 @@
-#' 21-7 data
+#' Dataset for Section 21.7
 #' 
 #' Dataset for Section 21.7
 #' 

@@ -1,4 +1,4 @@
-#' E19D data
+#' Dataset for Exercise D, Chapter 19
 #' 
 #' Dataset for Exercise D, Chapter 19
 #' 

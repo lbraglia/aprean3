@@ -1,4 +1,4 @@
-#' 24-2 data
+#' Dataset for Section 24.2
 #' 
 #' Dataset for Section 24.2
 #' 

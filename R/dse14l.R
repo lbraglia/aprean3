@@ -1,4 +1,4 @@
-#' E14L data
+#' Dataset for Exercise L, Chapter 14
 #' 
 #' Dataset for Exercise L, Chapter 14
 #' 

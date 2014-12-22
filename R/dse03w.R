@@ -1,4 +1,4 @@
-#' E03W data
+#' Dataset for Exercise W, Chapter 03
 #' 
 #' Dataset for Exercise W, Chapter 03
 #' 

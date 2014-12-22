@@ -1,4 +1,4 @@
-#' 14-4 data
+#' Dataset for Section 14.4
 #' 
 #' Dataset for Section 14.4
 #' 

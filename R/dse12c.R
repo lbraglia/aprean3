@@ -1,4 +1,4 @@
-#' E12C data
+#' Dataset for Exercise C, Chapter 12
 #' 
 #' Dataset for Exercise C, Chapter 12
 #' 

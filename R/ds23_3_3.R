@@ -1,4 +1,4 @@
-#' 23-3-3 data
+#' Dataset for Equation 23.3.3
 #' 
 #' Dataset for Equation 23.3.3
 #' 

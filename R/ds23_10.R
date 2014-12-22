@@ -1,4 +1,4 @@
-#' 23-10 data
+#' Dataset for Section 23.10
 #' 
 #' Dataset for Section 23.10
 #' 

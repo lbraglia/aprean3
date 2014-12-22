@@ -2,7 +2,7 @@
 \docType{data}
 \name{ds23_7_5}
 \alias{ds23_7_5}
-\title{23-7-5 data}
+\title{Dataset for Equation 23.7.5}
 \format{A data.frame with 24 rows and 12 variables:
 \describe{
 \item{x1}{}
@@ -25,7 +25,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 ds23_7_5
 }
 \description{
-23-7-5 data
+Dataset for Equation 23.7.5
 }
 \examples{
 ds23_7_5

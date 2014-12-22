@@ -1,4 +1,4 @@
-#' E22G data
+#' Dataset for Exercise G, Chapter 22
 #' 
 #' Dataset for Exercise G, Chapter 22
 #' 

@@ -1,4 +1,4 @@
-#' E03GG data
+#' Dataset for Exercise GG, Chapter 03
 #' 
 #' Dataset for Exercise GG, Chapter 03
 #' 

@@ -1,4 +1,4 @@
-#' 18-1 data
+#' Dataset for Section 18.1
 #' 
 #' Dataset for Section 18.1
 #' 

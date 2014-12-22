@@ -1,58 +1,48 @@
-note Data for exercise 13, in order Filler, 
-note Naphthenic oil and Viscosity(Y) 
-note N990 data comes first
- 
-    1     0     0    26
-    2     0    10    18
-    3     0    20    12
-    4    12     0    28
-    5    12    10    19
-    6    12    20    14
-    7    12    30    12
-    8    24     0    30
-    9    24    10    20
-   10    24    20    14
-   11    24    30    12
-   12    36     0    32
-   13    36    10    21
-   14    36    20    16
-   15    36    30    13
-   16    48     0    34
-   17    48    10    24
-   18    48    20    17
-   19    48    30    14
-   20    60     0    37
-   21    60    10    24
-   22    60    20    17
-   23    60    30    14
- 
- 
-note Data for exercise 13, in order Filler, 
-note Naphthenic oil and Viscosity(Y) 
-note Silica B data comes next 
-
-    1     0     0    25
-    2     0    10    18
-    3     0    20    13
-    4     0    30    11
-    5    12     0    30
-    6    12    10    21
-    7    12    20    15
-    8    12    30    14
-    9    24     0    35
-   10    24    10    24
-   11    24    20    17
-   12    24    30    15
-   13    36     0    40
-   14    36    10    28
-   15    36    20    20
-   16    36    30    17
-   17    48     0    50
-   18    48    10    33
-   19    48    20    24
-   20    48    30    18
-   21    60     0    60
-   22    60    10    41
-   23    60    20    29
-   24    60    30    25
- 
+id filler naphthenic_oil y ytype
+    1     0     0    26  n990
+    2     0    10    18  n990
+    3     0    20    12  n990
+    4    12     0    28  n990
+    5    12    10    19  n990
+    6    12    20    14  n990
+    7    12    30    12  n990
+    8    24     0    30  n990
+    9    24    10    20  n990
+   10    24    20    14  n990
+   11    24    30    12  n990
+   12    36     0    32  n990
+   13    36    10    21  n990
+   14    36    20    16  n990
+   15    36    30    13  n990
+   16    48     0    34  n990
+   17    48    10    24  n990
+   18    48    20    17  n990
+   19    48    30    14  n990
+   20    60     0    37  n990
+   21    60    10    24  n990
+   22    60    20    17  n990
+   23    60    30    14  n990
+    1     0     0    25  silicaB
+    2     0    10    18  silicaB
+    3     0    20    13  silicaB
+    4     0    30    11  silicaB
+    5    12     0    30  silicaB
+    6    12    10    21  silicaB
+    7    12    20    15  silicaB
+    8    12    30    14  silicaB
+    9    24     0    35  silicaB
+   10    24    10    24  silicaB
+   11    24    20    17  silicaB
+   12    24    30    15  silicaB
+   13    36     0    40  silicaB
+   14    36    10    28  silicaB
+   15    36    20    20  silicaB
+   16    36    30    17  silicaB
+   17    48     0    50  silicaB
+   18    48    10    33  silicaB
+   19    48    20    24  silicaB
+   20    48    30    18  silicaB
+   21    60     0    60  silicaB
+   22    60    10    41  silicaB
+   23    60    20    29  silicaB
+   24    60    30    25  silicaB

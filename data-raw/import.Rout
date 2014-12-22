@@ -5,8 +5,6 @@
 > 
 > ## Function to 'extract' description from naming scheme
 > description <- function(x) {
-+ 
-+ 
 +   if (grepl("^E\\d\\d", x, perl = TRUE)) {
 +     ## Exercises match E\n\nXXX
 +     sub("^E(\\d\\d)(.*)" ,
@@ -46,7 +44,7 @@
 > ## Status
 > ## ------
 > ## numbering refers to order given by `make` in cleaned subdir
-> TODO <- c(3, 15, 20, 24, 27, 29, 48, 55, 81, 85, 92:99, 110, 123,
+> TODO <- c(3, 93:99, 110, 123,
 +           125, 126, 130, 131, 132, 133, 134, 135, 146) 
 > 
 > processed <- 1:150 %without% TODO
@@ -85,16 +83,21 @@ Importing cleaned/14-4
 Importing cleaned/14-5 
 Importing cleaned/14-6 
 Importing cleaned/15A 
+Importing cleaned/16EX1 
 Importing cleaned/18-1 
 Importing cleaned/19-1 
 Importing cleaned/19-2 
 Importing cleaned/21-7 
+Importing cleaned/22-2 
 Importing cleaned/23-10 
 Importing cleaned/23-2 
 Importing cleaned/23-3-3 
+Importing cleaned/23-3-7 
 Importing cleaned/23-7-5 
 Importing cleaned/24-2 
+Importing cleaned/25-2 
 Importing cleaned/25-3 
+Importing cleaned/26-1 
 Importing cleaned/E03A 
 Importing cleaned/E03AA 
 Importing cleaned/E03BB 
@@ -113,12 +116,14 @@ Importing cleaned/E03II
 Importing cleaned/E03J 
 Importing cleaned/E03JJ 
 Importing cleaned/E03K 
+Importing cleaned/E03KK 
 Importing cleaned/E03LL 
 Importing cleaned/E03N 
 Importing cleaned/E03O 
 Importing cleaned/E03R 
 Importing cleaned/E03V 
 Importing cleaned/E03W 
+Importing cleaned/E03X 
 Importing cleaned/E03Z 
 Importing cleaned/E04D 
 Importing cleaned/E04E 
@@ -144,15 +149,18 @@ Importing cleaned/E09B
 Importing cleaned/E12A 
 Importing cleaned/E12B 
 Importing cleaned/E12C 
+Importing cleaned/E12D 
 Importing cleaned/E12E 
 Importing cleaned/E12H 
 Importing cleaned/E13A 
+Importing cleaned/E13B 
 Importing cleaned/E13C 
 Importing cleaned/E13D 
 Importing cleaned/E13E 
 Importing cleaned/E13F 
 Importing cleaned/E13G 
 Importing cleaned/E13H 
+Importing cleaned/E14B 
 Importing cleaned/E14L 
 Importing cleaned/E14R 
 Importing cleaned/E14S 
@@ -594,6 +602,36 @@ NULL
 [[121]]
 NULL
 
+[[122]]
+NULL
+
+[[123]]
+NULL
+
+[[124]]
+NULL
+
+[[125]]
+NULL
+
+[[126]]
+NULL
+
+[[127]]
+NULL
+
+[[128]]
+NULL
+
+[[129]]
+NULL
+
+[[130]]
+NULL
+
+[[131]]
+NULL
+
 > 
 > ## ---------------
 > ## Standard export
@@ -967,6 +1005,36 @@ NULL
 NULL
 
 [[121]]
+NULL
+
+[[122]]
+NULL
+
+[[123]]
+NULL
+
+[[124]]
+NULL
+
+[[125]]
+NULL
+
+[[126]]
+NULL
+
+[[127]]
+NULL
+
+[[128]]
+NULL
+
+[[129]]
+NULL
+
+[[130]]
+NULL
+
+[[131]]
 NULL
 
 > 

@@ -1,26 +1,21 @@
-note Table 25.2 data in order X(1974) and Y(1992)
-note (original data, followed by amended data with new Y1)
- 
-    1    232    132
-    2     96     50
-    3    158     43
-    4    194     41
-    5     89     33
-    6     64     25
-    7     25     16
-    8     23      8
-    9      4      3
-   10      2      1
- 
- 
-    1    232    104
-    2     96     50
-    3    158     43
-    4    194     41
-    5     89     33
-    6     64     25
-    7     25     16
-    8     23      8
-    9      4      3
-   10      2      1
- 
+id type y1974 y1992 
+    1    original    232    132
+    2    original     96     50
+    3    original    158     43
+    4    original    194     41
+    5    original     89     33
+    6    original     64     25
+    7    original     25     16
+    8    original     23      8
+    9    original      4      3
+   10    original      2      1
+    1    amended    232    104
+    2    amended     96     50
+    3    amended    158     43
+    4    amended    194     41
+    5    amended     89     33
+    6    amended     64     25
+    7    amended     25     16
+    8    amended     23      8
+    9    amended      4      3
+   10    amended      2      1

@@ -5,8 +5,6 @@
 
 ## Function to 'extract' description from naming scheme
 description <- function(x) {
-
-
   if (grepl("^E\\d\\d", x, perl = TRUE)) {
     ## Exercises match E\n\nXXX
     sub("^E(\\d\\d)(.*)" ,
@@ -46,7 +44,7 @@ description <- function(x) {
 ## Status
 ## ------
 ## numbering refers to order given by `make` in cleaned subdir
-TODO <- c(3, 15, 20, 24, 27, 29, 48, 55, 81, 85, 92:99, 110, 123,
+TODO <- c(3, 93:99, 110, 123,
           125, 126, 130, 131, 132, 133, 134, 135, 146) 
 
 processed <- 1:150 %without% TODO

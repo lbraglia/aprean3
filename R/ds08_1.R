@@ -1,13 +1,13 @@
-#' Dataset for Table 24.2
+#' Dataset for Table 08.1
 #' 
-#' Dataset for Table 24.2
+#' Dataset for Table 08.1
 #' 
-#' @format A data.frame with 44 rows and 2 variables:
+#' @format A data.frame with 21 rows and 2 variables:
 #' \describe{
 #' \item{x}{}
 #' \item{y}{}
 #' }
 #' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
-#' ds24_2
-'ds24_2'
+#' ds08_1
+'ds08_1'

@@ -34,7 +34,7 @@ description <- function(x) {
   } else if (grepl("^\\d\\d-\\d{1,2}$", x, perl = TRUE)) {
     ## Sections
     sub("^(\\d\\d)-(\\d{1,2})$" ,
-        "Dataset for Section \\1.\\2",
+        "Dataset for Table \\1.\\2",
         x,
         perl = TRUE)
   } else
@@ -46,7 +46,7 @@ description <- function(x) {
 ## Status
 ## ------
 ## numbering refers to order given by `make` in cleaned subdir
-TODO <- c(3, 5, 6, 7, 15, 20, 24, 27, 29, 48, 55, 81, 85, 92:99, 110, 123,
+TODO <- c(3, 15, 20, 24, 27, 29, 48, 55, 81, 85, 92:99, 110, 123,
           125, 126, 130, 131, 132, 133, 134, 135, 146) 
 
 processed <- 1:150 %without% TODO
@@ -61,7 +61,7 @@ import.fun <- function(path) {
   ## original name of dataset (from file path)
   originalName <- strsplit(path, "/")[[1]][2]
   attr(res, "originalName") <- originalName
-  ## data.frame name used to used as comment
+  ## data.frame name included as comment
   dfName <- gsub("-","_", originalName)
   dfName <- paste0("ds", dfName)
   dfName <- tolower(dfName)

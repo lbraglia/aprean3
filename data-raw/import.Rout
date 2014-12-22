@@ -6,11 +6,35 @@
 > ## Function to 'extract' description from naming scheme
 > description <- function(x) {
 + 
-+   ## Exercises: matches EnnXXX where nn is chapter number and XXX is
-+   ##            Exercise number
++ 
 +   if (grepl("^E\\d\\d", x, perl = TRUE)) {
++     ## Exercises match E\n\nXXX
 +     sub("^E(\\d\\d)(.*)" ,
-+         "Data for Exercise \\2, Chapter \\1",
++         "Dataset for Exercise \\2, Chapter \\1",
++         x,
++         perl = TRUE)
++   } else if (grepl("^\\d\\dEX\\d$", x, perl = TRUE)) {
++     ## Examples match \n\nEx\n
++     sub("^(\\d\\d)EX(.*)$" ,
++         "Dataset for Example \\2, Chapter \\1",
++         x,
++         perl = TRUE)
++   } else if (grepl("^\\d\\d[A-Z]$", x, perl = TRUE)) {
++     ## Appendixes
++     sub("^(\\d\\d)([A-Z])$" ,
++         "Dataset for Appendix \\2, Chapter \\1",
++         x,
++         perl = TRUE)
++   } else if (grepl("^\\d\\d-\\d-\\d$", x, perl = TRUE)) {
++     ## Equations
++     sub("^(\\d\\d)-(\\d)-(\\d)$" ,
++         "Dataset for Equation \\1.\\2.\\3",
++         x,
++         perl = TRUE)
++   } else if (grepl("^\\d\\d-\\d{1,2}$", x, perl = TRUE)) {
++     ## Sections
++     sub("^(\\d\\d)-(\\d{1,2})$" ,
++         "Dataset for Section \\1.\\2",
 +         x,
 +         perl = TRUE)
 +   } else
@@ -172,13 +196,6 @@ Importing cleaned/E24P
 > ## -------------------
 > ## making roxygen2 doc
 > ## -------------------
-> ## originalName <- function(x) {
-> ##   x <- toupper(x)
-> ##   x <- gsub("_", "-", x)
-> ##   x <- gsub("^DS", "", x)
-> ##   x
-> ## }
-> 
 > doc.fun <- function(x){
 +   dfName <- comment(x)
 +   ## Header section

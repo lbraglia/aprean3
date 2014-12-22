@@ -1,8 +1,4 @@
-> q## -----
-function (save = "default", status = 0, runLast = TRUE) 
-.Internal(quit(save, status, runLast))
-<bytecode: 0x1701d08>
-<environment: namespace:base>
+> ## -----
 > ## Utils
 > ## -----
 > "%without%" <-  function(x, y) x[!(x %in% y)]

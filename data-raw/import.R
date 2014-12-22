@@ -1,4 +1,4 @@
-q## -----
+## -----
 ## Utils
 ## -----
 "%without%" <-  function(x, y) x[!(x %in% y)]
@@ -10,7 +10,7 @@ description <- function(x) {
   ##            Exercise number
   if (grepl("^E\\d\\d", x, perl = TRUE)) {
     sub("^E(\\d\\d)(.*)" ,
-        "Data for Exercise \\2, Chapter \\1",
+        "Dataset for Exercise \\2, Chapter \\1",
         x,
         perl = TRUE)
   } else
@@ -54,13 +54,6 @@ dfList <- lapply(pathList[processed], import.fun)
 ## -------------------
 ## making roxygen2 doc
 ## -------------------
-## originalName <- function(x) {
-##   x <- toupper(x)
-##   x <- gsub("_", "-", x)
-##   x <- gsub("^DS", "", x)
-##   x
-## }
-
 doc.fun <- function(x){
   dfName <- comment(x)
   ## Header section

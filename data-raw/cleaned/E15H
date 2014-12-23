@@ -1,6 +1,4 @@
-note Data for exercise 15h in order Year dummy=X1, X2, ... , X9 and Y
-note Use first (order) column as year dummy
- 
+year x1 x2 x3 x4 x5 x6 x7 x8 x9 
     1   17.75   60.2    5.83   69.0   1.49   77.9   2.42   74.4   34.0
     2   14.76   57.5    3.83   75.0   2.72   77.2   3.30   72.6   32.9
     3   27.99   62.3    5.17   72.0   3.12   75.8   7.10   72.2   43.0

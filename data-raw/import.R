@@ -44,8 +44,8 @@ description <- function(x) {
 ## Status
 ## ------
 ## numbering refers to order given by `make` in cleaned subdir
-TODO <- c(3, 93:99, 110, 123,
-          125, 126, 130, 131, 132, 133, 134, 135, 146) 
+
+TODO <- c(3, 93, 99, 123, 125, 126, 130, 132, 133, 134, 135)
 
 processed <- 1:150 %without% TODO
 

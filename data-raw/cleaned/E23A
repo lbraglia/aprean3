@@ -1,6 +1,6 @@
 note Data for exercise 23a(a) in order Pressure, Time, Dummies X1,
 note X2, X3, X4 and Y
- 
+id pressure time x1 x2 x3 x4 y 
     1    10    1    1    0    1    0   45.2
     2    10    1    1    0    1    0   46.0
     3    10    2    1    0    0    1   40.0

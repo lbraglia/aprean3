@@ -2,7 +2,7 @@
 \docType{data}
 \name{ds18_1}
 \alias{ds18_1}
-\title{Dataset for Section 18.1}
+\title{Dataset for Table 18.1}
 \format{A data.frame with 10 rows and 3 variables:
 \describe{
 \item{areaa}{}
@@ -16,7 +16,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 ds18_1
 }
 \description{
-Dataset for Section 18.1
+Dataset for Table 18.1
 }
 \examples{
 ds18_1

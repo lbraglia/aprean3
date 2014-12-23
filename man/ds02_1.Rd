@@ -2,7 +2,7 @@
 \docType{data}
 \name{ds02_1}
 \alias{ds02_1}
-\title{Dataset for Section 02.1}
+\title{Dataset for Table 02.1}
 \format{A data.frame with 23 rows and 3 variables:
 \describe{
 \item{time_order}{}
@@ -16,7 +16,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 ds02_1
 }
 \description{
-Dataset for Section 02.1
+Dataset for Table 02.1
 }
 \examples{
 ds02_1

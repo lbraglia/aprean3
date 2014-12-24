@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Section 25.3
 #' 
-#' @format A data.frame with 25 rows and 2 variables:
+#' @format A \code{data.frame} with 25 rows and 2 variables:
 #' \describe{
 #' \item{diameter}{}
 #' \item{height}{}

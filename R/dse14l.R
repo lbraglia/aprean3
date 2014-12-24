@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Exercise L, Chapter 14
 #' 
-#' @format A data.frame with 8 rows and 3 variables:
+#' @format A \code{data.frame} with 8 rows and 3 variables:
 #' \describe{
 #' \item{x}{}
 #' \item{dummy}{}

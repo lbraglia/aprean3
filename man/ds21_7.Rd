@@ -2,8 +2,8 @@
 \docType{data}
 \name{ds21_7}
 \alias{ds21_7}
-\title{Dataset for Table 21.7}
-\format{A data.frame with 25 rows and 3 variables:
+\title{Dataset for Section 21.7}
+\format{A \code{data.frame} with 25 rows and 3 variables:
 \describe{
 \item{y}{}
 \item{x6}{}
@@ -16,7 +16,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 ds21_7
 }
 \description{
-Dataset for Table 21.7
+Dataset for Section 21.7
 }
 \examples{
 ds21_7

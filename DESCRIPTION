@@ -1,6 +1,6 @@
 Package: aprean3
 Title: Datasets from Draper and Smith "Applied Regression Analysis" (3rd ed.)
-Version: 0.1
+Version: 0.5
 Authors@R: "Luca Braglia <lbraglia@gmail.com> [aut, cre]"
 Description: This package is a unofficial companion to the textbook
     "Applied Regression Analysis" by N.R. Draper and H. Smith (3rd

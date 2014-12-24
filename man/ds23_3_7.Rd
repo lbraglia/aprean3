@@ -3,7 +3,7 @@
 \name{ds23_3_7}
 \alias{ds23_3_7}
 \title{Dataset for Equation 23.3.7}
-\format{A data.frame with 30 rows and 4 variables:
+\format{A \code{data.frame} with 30 rows and 4 variables:
 \describe{
 \item{x0}{}
 \item{z1}{}

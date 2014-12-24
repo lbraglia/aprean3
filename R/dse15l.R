@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Exercise L, Chapter 15
 #' 
-#' @format A data.frame with 15 rows and 8 variables:
+#' @format A \code{data.frame} with 15 rows and 8 variables:
 #' \describe{
 #' \item{x1}{}
 #' \item{x2}{}

@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Exercise B, Chapter 13
 #' 
-#' @format A data.frame with 47 rows and 4 variables:
+#' @format A \code{data.frame} with 47 rows and 4 variables:
 #' \describe{
 #' \item{filler}{}
 #' \item{naphthenic_oil}{}

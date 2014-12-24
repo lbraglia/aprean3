@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Exercise E, Chapter 22
 #' 
-#' @format A data.frame with 9 rows and 7 variables:
+#' @format A \code{data.frame} with 9 rows and 7 variables:
 #' \describe{
 #' \item{y}{}
 #' \item{x1}{}

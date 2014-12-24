@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Section 22.2
 #' 
-#' @format A data.frame with 75 rows and 8 variables:
+#' @format A \code{data.frame} with 75 rows and 8 variables:
 #' \describe{
 #' \item{n}{}
 #' \item{p0}{}

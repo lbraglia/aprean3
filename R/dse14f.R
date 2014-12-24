@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Exercise F, Chapter 14
 #' 
-#' @format A data.frame with 6 rows and 6 variables:
+#' @format A \code{data.frame} with 6 rows and 6 variables:
 #' \describe{
 #' \item{z0}{}
 #' \item{z1}{}

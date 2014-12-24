@@ -3,7 +3,7 @@
 \name{ds15a}
 \alias{ds15a}
 \title{Dataset for Appendix A, Chapter 15}
-\format{A data.frame with 13 rows and 5 variables:
+\format{A \code{data.frame} with 13 rows and 5 variables:
 \describe{
 \item{x1}{}
 \item{x2}{}

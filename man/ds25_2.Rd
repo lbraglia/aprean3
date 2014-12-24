@@ -2,8 +2,8 @@
 \docType{data}
 \name{ds25_2}
 \alias{ds25_2}
-\title{Dataset for Table 25.2}
-\format{A data.frame with 20 rows and 3 variables:
+\title{Dataset for Section 25.2}
+\format{A \code{data.frame} with 20 rows and 3 variables:
 \describe{
 \item{type}{}
 \item{y1974}{}
@@ -16,7 +16,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 ds25_2
 }
 \description{
-Dataset for Table 25.2
+Dataset for Section 25.2
 }
 \examples{
 ds25_2

@@ -3,7 +3,7 @@
 \name{dse14r}
 \alias{dse14r}
 \title{Dataset for Exercise R, Chapter 14}
-\format{A data.frame with 48 rows and 4 variables:
+\format{A \code{data.frame} with 48 rows and 4 variables:
 \describe{
 \item{boot}{}
 \item{subject}{}

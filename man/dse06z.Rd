@@ -3,7 +3,7 @@
 \name{dse06z}
 \alias{dse06z}
 \title{Dataset for Exercise Z, Chapter 06}
-\format{A data.frame with 19 rows and 2 variables:
+\format{A \code{data.frame} with 19 rows and 2 variables:
 \describe{
 \item{x}{}
 \item{y}{}

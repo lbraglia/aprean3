@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Section 18.1
 #' 
-#' @format A data.frame with 10 rows and 3 variables:
+#' @format A \code{data.frame} with 10 rows and 3 variables:
 #' \describe{
 #' \item{areaa}{}
 #' \item{areab}{}

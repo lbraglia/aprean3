@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Appendix B, Chapter 06
 #' 
-#' @format A data.frame with 70 rows and 4 variables:
+#' @format A \code{data.frame} with 70 rows and 4 variables:
 #' \describe{
 #' \item{set}{}
 #' \item{x1}{}

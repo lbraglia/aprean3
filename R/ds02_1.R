@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Section 02.1
 #' 
-#' @format A data.frame with 23 rows and 3 variables:
+#' @format A \code{data.frame} with 23 rows and 3 variables:
 #' \describe{
 #' \item{time_order}{}
 #' \item{y}{}

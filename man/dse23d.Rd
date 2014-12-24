@@ -3,7 +3,7 @@
 \name{dse23d}
 \alias{dse23d}
 \title{Dataset for Exercise D, Chapter 23}
-\format{A data.frame with 19 rows and 2 variables:
+\format{A \code{data.frame} with 19 rows and 2 variables:
 \describe{
 \item{pcal}{}
 \item{bstrength}{}

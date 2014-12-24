@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Section 26.1
 #' 
-#' @format A data.frame with 10 rows and 2 variables:
+#' @format A \code{data.frame} with 10 rows and 2 variables:
 #' \describe{
 #' \item{y1974}{}
 #' \item{y1992}{}

@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Exercise L, Chapter 06
 #' 
-#' @format A data.frame with 9 rows and 4 variables:
+#' @format A \code{data.frame} with 9 rows and 4 variables:
 #' \describe{
 #' \item{batchn}{}
 #' \item{t}{}

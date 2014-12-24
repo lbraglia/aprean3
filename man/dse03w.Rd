@@ -3,7 +3,7 @@
 \name{dse03w}
 \alias{dse03w}
 \title{Dataset for Exercise W, Chapter 03}
-\format{A data.frame with 14 rows and 2 variables:
+\format{A \code{data.frame} with 14 rows and 2 variables:
 \describe{
 \item{year}{}
 \item{price}{}

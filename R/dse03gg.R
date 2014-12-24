@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Exercise GG, Chapter 03
 #' 
-#' @format A data.frame with 5 rows and 2 variables:
+#' @format A \code{data.frame} with 5 rows and 2 variables:
 #' \describe{
 #' \item{wage}{}
 #' \item{turnover}{}

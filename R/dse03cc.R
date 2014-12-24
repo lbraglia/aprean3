@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Exercise CC, Chapter 03
 #' 
-#' @format A data.frame with 10 rows and 10 variables:
+#' @format A \code{data.frame} with 10 rows and 10 variables:
 #' \describe{
 #' \item{note}{}
 #' \item{Data}{}

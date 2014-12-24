@@ -3,7 +3,7 @@
 ## -----
 "%without%" <-  function(x, y) x[!(x %in% y)]
 
-## Function to 'extract' description from naming scheme
+## Function for 'extracting' description from naming scheme
 description <- function(x) {
   if (grepl("^E\\d\\d", x, perl = TRUE)) {
     ## Exercises match E\n\nXXX
@@ -35,9 +35,9 @@ description <- function(x) {
         "Dataset for Section \\1.\\2",
         x,
         perl = TRUE)
-  } else if (grepl("^T\\d\\d-\\d{1,2}$", x, perl = TRUE)) {
-    ## Sections
-    sub("^T(\\d\\d)-(\\d{1,2})$" ,
+  } else if (grepl("^\\d\\d-\\d{1,2}-TABLE$", x, perl = TRUE)) {
+    ## Tables
+    sub("^(\\d\\d)-(\\d{1,2})-TABLE$" ,
         "Dataset for Table \\1.\\2",
         x,
         perl = TRUE)
@@ -63,15 +63,26 @@ import.fun <- function(path) {
   res <- read.table(file = path, header = TRUE, fill = TRUE)
   res <- res[, names(res) %without% "id"]
   ## original name of dataset (from file path)
-  originalName <- strsplit(path, "/")[[1]][2]
+  fileName <- strsplit(path, "/")[[1]][2]
+  ## Exceptions to data.frame here ...
+  if (fileName == "16EX1") {
+    res <- unname(as.matrix(res))
+  }
+  ## Now, attach a bit of metadata (useful in what follows) to the object
+  attr(res, "fileName") <- fileName
+  ## name of the file in the "original" subdir (the same except for tables
+  ## which are with sections)
+  originalName <- sub("-TABLE", "", fileName)
   attr(res, "originalName") <- originalName
-  ## data.frame name included as comment
-  dfName <- gsub("-","_", originalName)
+  ## data.frame name
+  ## prefix a 't' for tables (eg t03-3)
+  dfName <- gsub("^(.+)(-TABLE)$", "t\\1" , fileName, perl = TRUE)
+  dfName <- gsub("-","_", dfName)
   dfName <- paste0("ds", dfName)
   dfName <- tolower(dfName)
-  comment(res) <- dfName
-  ## Description of the data, from the name?
-  attr(res, "description") <- description(originalName)
+  attr(res, "dfName") <- dfName
+  ## Description of the data
+  attr(res, "description") <- description(fileName)
   res
 }
 pathList <- as.list( paste0("cleaned", "/", list.files("cleaned")) )
@@ -81,7 +92,8 @@ dfList <- lapply(pathList[processed], import.fun)
 ## making roxygen2 doc
 ## -------------------
 doc.fun <- function(x){
-  dfName <- comment(x)
+  
+  dfName <- attr(x, "dfName")
   ## Header section
   Header <- c(
     sprintf("#' %s", attr(x, "description") ),
@@ -89,17 +101,19 @@ doc.fun <- function(x){
     sprintf("#' %s", attr(x, "description")),
     "#' "
   )
-  ## Format/Describe section
+  ## Format/Describe section (if data.frame give names of columns,
+  ## otherwise if matrix list only ncol and nrow.
   makeRdItems <- function(item){
     unlist(lapply(item, function(x) sprintf("#' \\item{%s}{}", x)))
   }
-  Format <- c(
-    sprintf("#' @format A data.frame with %s rows and %s variables:",
-            nrow(x), ncol(x)),
-    "#' \\describe{",
-    makeRdItems(names(x)),
-    "#' }"
-    )
+  Format <- sprintf("#' @format A \\code{%s} with %s rows and %s %s%s",
+                    class(x), nrow(x), ncol(x),
+                    ifelse(is.matrix(x), "columns", "variables"),
+                    ifelse(is.matrix(x), ".", ":"))
+  if (class(x) == "data.frame")
+    Format <- c(Format , "#' \\describe{", makeRdItems(names(x)), "#' }")
+
+  
   ## The source book
   Source <- paste0("#' @source Draper, N.R., Smith, H., (1998) ",
                    "Applied Regression Analyis, 3rd ed., ",
@@ -119,7 +133,11 @@ lapply(dfList, doc.fun)
 ## Standard export
 ## ---------------
 export.fun <- function(x) {
-  dfName <- comment(x)
+  dfName <- attr(x, "dfName")
+  ## remove used metadata
+  myAttrs <- c("fileName", "originalName", "dfName", "description")
+  attributes(x)[myAttrs] <- NULL
+  ## now save in proper name and export
   eval(parse(text = sprintf("%s <- x", dfName)))
   save(list = c(dfName),
        file = sprintf("../data/%s.rda", dfName),

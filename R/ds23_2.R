@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Section 23.2
 #' 
-#' @format A data.frame with 30 rows and 2 variables:
+#' @format A \code{data.frame} with 30 rows and 2 variables:
 #' \describe{
 #' \item{group}{}
 #' \item{y}{}

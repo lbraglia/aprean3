@@ -3,7 +3,7 @@
 \name{dse14g}
 \alias{dse14g}
 \title{Dataset for Exercise G, Chapter 14}
-\format{A data.frame with 20 rows and 5 variables:
+\format{A \code{data.frame} with 20 rows and 5 variables:
 \describe{
 \item{system}{}
 \item{x0}{}

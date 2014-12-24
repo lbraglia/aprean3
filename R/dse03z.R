@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Exercise Z, Chapter 03
 #' 
-#' @format A data.frame with 17 rows and 2 variables:
+#' @format A \code{data.frame} with 17 rows and 2 variables:
 #' \describe{
 #' \item{consumption}{}
 #' \item{population}{}

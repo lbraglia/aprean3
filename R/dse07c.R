@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Exercise C, Chapter 07
 #' 
-#' @format A data.frame with 50 rows and 7 variables:
+#' @format A \code{data.frame} with 50 rows and 7 variables:
 #' \describe{
 #' \item{y}{}
 #' \item{x1}{}

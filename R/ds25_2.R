@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Section 25.2
 #' 
-#' @format A data.frame with 20 rows and 3 variables:
+#' @format A \code{data.frame} with 20 rows and 3 variables:
 #' \describe{
 #' \item{type}{}
 #' \item{y1974}{}

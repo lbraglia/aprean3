@@ -3,7 +3,7 @@
 \name{dse14j}
 \alias{dse14j}
 \title{Dataset for Exercise J, Chapter 14}
-\format{A data.frame with 72 rows and 2 variables:
+\format{A \code{data.frame} with 72 rows and 2 variables:
 \describe{
 \item{wh}{}
 \item{age}{}

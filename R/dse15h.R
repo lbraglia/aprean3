@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Exercise H, Chapter 15
 #' 
-#' @format A data.frame with 36 rows and 10 variables:
+#' @format A \code{data.frame} with 36 rows and 10 variables:
 #' \describe{
 #' \item{year}{}
 #' \item{x1}{}

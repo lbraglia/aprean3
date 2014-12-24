@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Equation 23.3.3
 #' 
-#' @format A data.frame with 30 rows and 5 variables:
+#' @format A \code{data.frame} with 30 rows and 5 variables:
 #' \describe{
 #' \item{x0}{}
 #' \item{x1}{}

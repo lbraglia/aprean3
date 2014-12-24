@@ -2,7 +2,7 @@
 #' 
 #' Dataset for Section 14.6
 #' 
-#' @format A data.frame with 9 rows and 5 variables:
+#' @format A \code{data.frame} with 9 rows and 5 variables:
 #' \describe{
 #' \item{x0}{}
 #' \item{x1}{}

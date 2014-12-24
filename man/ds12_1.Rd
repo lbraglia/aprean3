@@ -2,8 +2,8 @@
 \docType{data}
 \name{ds12_1}
 \alias{ds12_1}
-\title{Dataset for Table 12.1}
-\format{A data.frame with 20 rows and 5 variables:
+\title{Dataset for Section 12.1}
+\format{A \code{data.frame} with 20 rows and 5 variables:
 \describe{
 \item{x1}{}
 \item{x2}{}
@@ -18,7 +18,7 @@ Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: W
 ds12_1
 }
 \description{
-Dataset for Table 12.1
+Dataset for Section 12.1
 }
 \examples{
 ds12_1

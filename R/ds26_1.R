@@ -1,6 +1,6 @@
-#' Dataset for Table 26.1
+#' Dataset for Section 26.1
 #' 
-#' Dataset for Table 26.1
+#' Dataset for Section 26.1
 #' 
 #' @format A data.frame with 10 rows and 2 variables:
 #' \describe{

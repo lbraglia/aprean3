@@ -32,6 +32,12 @@ description <- function(x) {
   } else if (grepl("^\\d\\d-\\d{1,2}$", x, perl = TRUE)) {
     ## Sections
     sub("^(\\d\\d)-(\\d{1,2})$" ,
+        "Dataset for Section \\1.\\2",
+        x,
+        perl = TRUE)
+  } else if (grepl("^T\\d\\d-\\d{1,2}$", x, perl = TRUE)) {
+    ## Sections
+    sub("^T(\\d\\d)-(\\d{1,2})$" ,
         "Dataset for Table \\1.\\2",
         x,
         perl = TRUE)
@@ -80,7 +86,7 @@ doc.fun <- function(x){
   Header <- c(
     sprintf("#' %s", attr(x, "description") ),
     "#' ",
-    sprintf("#' %s"     , attr(x, "description")),
+    sprintf("#' %s", attr(x, "description")),
     "#' "
   )
   ## Format/Describe section

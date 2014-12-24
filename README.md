@@ -1,9 +1,9 @@
 # aprean3 [![Build Status](https://travis-ci.org/lbraglia/aprean3.svg)](https://travis-ci.org/lbraglia/aprean3) [![Build status](https://ci.appveyor.com/api/projects/status/9qef3w946su1k4w2?svg=true)](https://ci.appveyor.com/project/lbraglia/aprean3)
 
-This package is a unofficial companion to the textbook "Applied Regression
-Analysis" by N.R. Draper and H. Smith (3rd ed.).
+This package is a unofficial companion to the textbook "[Applied Regression
+Analysis](http:/www.wiley.com/WileyCDA/WileyTitle/productCd-0471170828.html)" by N.R. Draper and H. Smith (3rd ed.).
 
-It includes all the datasets used in the book, both for easy
+It includes almost all the datasets used in the book, both for easy
 reproducibility (assuming a didactic point of view) and algorithms
 benchmarking purposes.
 

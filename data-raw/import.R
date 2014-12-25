@@ -51,9 +51,10 @@ description <- function(x) {
 ## ------
 ## numbering refers to order given by `make` in cleaned subdir
 
-TODO <- c(3, 93, 99, 123, 125, 126, 130, 132, 133, 134, 135)
+TODO <- c("03-2", "E14C", "E14K", "E22A", "E22C", "E22D", "E23A", "E23E",
+          "E23F", "E23G", "E23H")
 
-processed <- 1:150 %without% TODO
+processed <- list.files("cleaned") %without% c(TODO, "Makefile")
 
 ## ---------------
 ## Standard import
@@ -85,8 +86,8 @@ import.fun <- function(path) {
   attr(res, "description") <- description(fileName)
   res
 }
-pathList <- as.list( paste0("cleaned", "/", list.files("cleaned")) )
-dfList <- lapply(pathList[processed], import.fun)
+pathList <- as.list( paste0("cleaned", "/", processed) )
+dfList <- lapply(pathList, import.fun)
 
 ## -------------------
 ## making roxygen2 doc

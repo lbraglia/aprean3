@@ -1,13 +1,14 @@
-#' Dataset for Exercise JJ, Chapter 03
+#' Dataset from Table 02.1
 #' 
-#' Dataset for Exercise JJ, Chapter 03
+#' Dataset from Table 02.1
 #' 
-#' @format A \code{data.frame} with 48 rows and 2 variables:
+#' @format A \code{data.frame} with 23 rows and 3 variables:
 #' \describe{
+#' \item{time_order}{}
 #' \item{y}{}
 #' \item{x}{}
 #' }
 #' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley
 #' @examples
-#' dse03jj
-'dse03jj'
+#' dst02_1
+'dst02_1'

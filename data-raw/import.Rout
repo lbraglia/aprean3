@@ -51,9 +51,10 @@
 > ## ------
 > ## numbering refers to order given by `make` in cleaned subdir
 > 
-> TODO <- c(3, 93, 99, 123, 125, 126, 130, 132, 133, 134, 135)
+> TODO <- c("03-2", "E14C", "E14K", "E22A", "E22C", "E22D", "E23A", "E23E",
++           "E23F", "E23G", "E23H")
 > 
-> processed <- 1:150 %without% TODO
+> processed <- list.files("cleaned") %without% c(TODO, "Makefile")
 > 
 > ## ---------------
 > ## Standard import
@@ -85,10 +86,10 @@
 +   attr(res, "description") <- description(fileName)
 +   res
 + }
-> pathList <- as.list( paste0("cleaned", "/", list.files("cleaned")) )
-> dfList <- lapply(pathList[processed], import.fun)
+> pathList <- as.list( paste0("cleaned", "/", processed) )
+> dfList <- lapply(pathList, import.fun)
 Importing cleaned/01A 
-Importing cleaned/02-1 
+Importing cleaned/02-1-TABLE 
 Importing cleaned/03-3-TABLE 
 Importing cleaned/06B 
 Importing cleaned/08-1-TABLE 
@@ -112,7 +113,7 @@ Importing cleaned/23-3-3
 Importing cleaned/23-3-7 
 Importing cleaned/23-7-5 
 Importing cleaned/24-2-TABLE 
-Importing cleaned/25-2 
+Importing cleaned/25-2-TABLE 
 Importing cleaned/25-3-TABLE 
 Importing cleaned/26-1-TABLE 
 Importing cleaned/E03A 
@@ -132,6 +133,8 @@ Importing cleaned/E03I
 Importing cleaned/E03II 
 Importing cleaned/E03J 
 Importing cleaned/E03JJ 
+Importing cleaned/E03JJ2 
+Importing cleaned/E03JJ3 
 Importing cleaned/E03K 
 Importing cleaned/E03KK 
 Importing cleaned/E03LL 
@@ -684,6 +687,12 @@ NULL
 [[139]]
 NULL
 
+[[140]]
+NULL
+
+[[141]]
+NULL
+
 > 
 > ## ---------------
 > ## Standard export
@@ -1115,6 +1124,12 @@ NULL
 NULL
 
 [[139]]
+NULL
+
+[[140]]
+NULL
+
+[[141]]
 NULL
 
 > 

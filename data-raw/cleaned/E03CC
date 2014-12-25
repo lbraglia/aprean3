@@ -1,5 +1,4 @@
-note Data for exercise 3cc in order X and Y
- 
+id x y 
     1    40     69
     2    50    175
     3    60    272
@@ -10,4 +9,3 @@ note Data for exercise 3cc in order X and Y
     8    60    265
     9    80    492
    10    50    180
- 

@@ -38,7 +38,7 @@ description <- function(x) {
   } else if (grepl("^\\d\\d-\\d{1,2}-TABLE$", x, perl = TRUE)) {
     ## Tables
     sub("^(\\d\\d)-(\\d{1,2})-TABLE$" ,
-        "Dataset for Table \\1.\\2",
+        "Dataset from Table \\1.\\2",
         x,
         perl = TRUE)
   } else

@@ -5,7 +5,7 @@
 \title{Dataset for Exercise K, Chapter 24}
 \format{A \code{data.frame} with 5 rows and 2 variables:
 \describe{
-\item{t}{}
+\item{x}{}
 \item{y}{}
 }}
 \source{

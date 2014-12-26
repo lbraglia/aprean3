@@ -3,12 +3,11 @@
 \name{dse14b}
 \alias{dse14b}
 \title{Dataset for Exercise B, Chapter 14}
-\format{A \code{data.frame} with 18 rows and 6 variables:
+\format{A \code{data.frame} with 18 rows and 5 variables:
 \describe{
 \item{y}{}
-\item{z1}{}
-\item{z2}{}
-\item{z3}{}
+\item{tiller}{}
+\item{type}{}
 \item{nrate}{}
 \item{x}{}
 }}

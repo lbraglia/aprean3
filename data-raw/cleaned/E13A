@@ -1,7 +1,7 @@
-id x y 
-    1   1830      30
-    2   1905     130
-    3   1930     400
-    4   1947     760
-    5   1952    1500
-    6   1969   25000
+id x y means
+    1   1830      30  railroad
+    2   1905     130  railroad
+    3   1930     400  airplane
+    4   1947     760  airplane
+    5   1952    1500  airplane
+    6   1969   25000  spaceship

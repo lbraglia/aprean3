@@ -51,8 +51,8 @@ description <- function(x) {
 ## ------
 ## numbering refers to order given by `make` in cleaned subdir
 
-TODO <- c("03-2", "E14C", "E14K", "E22A", "E22C", "E22D", "E23A", "E23E",
-          "E23F", "E23G", "E23H")
+TODO <- c("03-2", "E05G", "E14C", "E14K", "E22A", "E22C", "E22D", "E23A",
+          "E23E", "E23F", "E23G", "E23H")
 
 processed <- list.files("cleaned") %without% c(TODO, "Makefile")
 
@@ -65,9 +65,23 @@ import.fun <- function(path) {
   res <- res[, names(res) %without% "id"]
   ## original name of dataset (from file path)
   fileName <- strsplit(path, "/")[[1]][2]
-  ## Exceptions to data.frame here ...
+  ## Exceptions to data.frame of fully numeric data here ...
   if (fileName == "16EX1") {
     res <- unname(as.matrix(res))
+  } else if (fileName == "E07C") {
+    res$x4 <- factor(res$x4, levels = c(-1,1), labels = c("No","Yes"))
+  } else if (fileName == "E14B") {
+    res <- within(res, {
+      tiller <- factor(tiller)
+      type <- factor(type, levels = c("w","c"), labels = c("Waldron","Ciano"))
+      nrate <- factor(nrate, levels = c(0,50,270))
+    })
+  } else if (fileName == "E14R") {
+    res <- within(res, {
+      boot <- factor(boot, levels = c(-1,1), labels = c("A","B"))
+      temperature <- factor(temperature)
+      subject <- factor(subject)
+    })
   }
   ## Now, attach a bit of metadata (useful in what follows) to the object
   attr(res, "fileName") <- fileName
@@ -83,7 +97,7 @@ import.fun <- function(path) {
   dfName <- tolower(dfName)
   attr(res, "dfName") <- dfName
   ## Description of the data
-  attr(res, "description") <- description(fileName)
+  attr(res, "dfDescription") <- description(fileName)
   res
 }
 pathList <- as.list( paste0("cleaned", "/", processed) )
@@ -97,9 +111,9 @@ doc.fun <- function(x){
   dfName <- attr(x, "dfName")
   ## Header section
   Header <- c(
-    sprintf("#' %s", attr(x, "description") ),
+    sprintf("#' %s", attr(x, "dfDescription") ),
     "#' ",
-    sprintf("#' %s", attr(x, "description")),
+    sprintf("#' %s", attr(x, "dfDescription")),
     "#' "
   )
   ## Format/Describe section (if data.frame give names of columns,
@@ -136,7 +150,7 @@ lapply(dfList, doc.fun)
 export.fun <- function(x) {
   dfName <- attr(x, "dfName")
   ## remove used metadata
-  myAttrs <- c("fileName", "originalName", "dfName", "description")
+  myAttrs <- c("fileName", "originalName", "dfName", "dfDescription")
   attributes(x)[myAttrs] <- NULL
   ## now save in proper name and export
   eval(parse(text = sprintf("%s <- x", dfName)))

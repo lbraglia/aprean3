@@ -3,8 +3,9 @@
 \name{dse07b}
 \alias{dse07b}
 \title{Dataset for Exercise B, Chapter 07}
-\format{A \code{data.frame} with 48 rows and 3 variables:
+\format{A \code{data.frame} with 48 rows and 4 variables:
 \describe{
+\item{time}{}
 \item{set1}{}
 \item{set2}{}
 \item{set3}{}

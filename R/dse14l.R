@@ -4,8 +4,8 @@
 #' 
 #' @format A \code{data.frame} with 8 rows and 3 variables:
 #' \describe{
+#' \item{set}{}
 #' \item{x}{}
-#' \item{dummy}{}
 #' \item{y}{}
 #' }
 #' @source Draper, N.R., Smith, H., (1998) Applied Regression Analyis, 3rd ed., New York: Wiley

@@ -63,7 +63,7 @@ import.fun <- function(path) {
   cat("Importing", path , "\n")
   res <- read.table(file = path, header = TRUE, fill = TRUE)
   res <- res[, names(res) %without% "id"]
-  ## original name of dataset (from file path)
+  ## filenam from cleaned directory
   fileName <- strsplit(path, "/")[[1]][2]
   ## Exceptions to data.frame of fully numeric data here ...
   if (fileName == "16EX1") {
@@ -85,10 +85,6 @@ import.fun <- function(path) {
   }
   ## Now, attach a bit of metadata (useful in what follows) to the object
   attr(res, "fileName") <- fileName
-  ## name of the file in the "original" subdir (the same except for tables
-  ## which are with sections)
-  originalName <- sub("-TABLE", "", fileName)
-  attr(res, "originalName") <- originalName
   ## data.frame name
   ## prefix a 't' for tables (eg t03-3)
   dfName <- gsub("^(.+)(-TABLE)$", "t\\1" , fileName, perl = TRUE)
@@ -150,7 +146,7 @@ lapply(dfList, doc.fun)
 export.fun <- function(x) {
   dfName <- attr(x, "dfName")
   ## remove used metadata
-  myAttrs <- c("fileName", "originalName", "dfName", "dfDescription")
+  myAttrs <- c("fileName", "dfName", "dfDescription")
   attributes(x)[myAttrs] <- NULL
   ## now save in proper name and export
   eval(parse(text = sprintf("%s <- x", dfName)))

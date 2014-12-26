@@ -11,6 +11,12 @@ description <- function(x) {
         "Dataset for Exercise \\2, Chapter \\1",
         x,
         perl = TRUE)
+  } else if (grepl("^T\\d\\d\\d$", x, perl = TRUE)) {
+    ## Tables
+    sub("^T(\\d\\d)(\\d)$" ,
+        "Dataset from Table \\1.\\2",
+        x,
+        perl = TRUE)
   } else if (grepl("^\\d\\dEX\\d$", x, perl = TRUE)) {
     ## Examples match \n\nEx\n
     sub("^(\\d\\d)EX(.*)$" ,
@@ -33,12 +39,6 @@ description <- function(x) {
     ## Sections
     sub("^(\\d\\d)-(\\d{1,2})$" ,
         "Dataset for Section \\1.\\2",
-        x,
-        perl = TRUE)
-  } else if (grepl("^\\d\\d-\\d{1,2}-TABLE$", x, perl = TRUE)) {
-    ## Tables
-    sub("^(\\d\\d)-(\\d{1,2})-TABLE$" ,
-        "Dataset from Table \\1.\\2",
         x,
         perl = TRUE)
   } else

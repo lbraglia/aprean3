@@ -11,6 +11,12 @@
 +         "Dataset for Exercise \\2, Chapter \\1",
 +         x,
 +         perl = TRUE)
++   } else if (grepl("^T\\d\\d\\d$", x, perl = TRUE)) {
++     ## Tables
++     sub("^T(\\d\\d)(\\d)$" ,
++         "Dataset from Table \\1.\\2",
++         x,
++         perl = TRUE)
 +   } else if (grepl("^\\d\\dEX\\d$", x, perl = TRUE)) {
 +     ## Examples match \n\nEx\n
 +     sub("^(\\d\\d)EX(.*)$" ,
@@ -33,12 +39,6 @@
 +     ## Sections
 +     sub("^(\\d\\d)-(\\d{1,2})$" ,
 +         "Dataset for Section \\1.\\2",
-+         x,
-+         perl = TRUE)
-+   } else if (grepl("^\\d\\d-\\d{1,2}-TABLE$", x, perl = TRUE)) {
-+     ## Tables
-+     sub("^(\\d\\d)-(\\d{1,2})-TABLE$" ,
-+         "Dataset from Table \\1.\\2",
 +         x,
 +         perl = TRUE)
 +   } else
@@ -99,33 +99,15 @@
 > pathList <- as.list( paste0("cleaned", "/", processed) )
 > dfList <- lapply(pathList, import.fun)
 Importing cleaned/01A 
-Importing cleaned/02-1-TABLE 
-Importing cleaned/03-3-TABLE 
 Importing cleaned/06B 
-Importing cleaned/08-1-TABLE 
-Importing cleaned/12-1-TABLE 
-Importing cleaned/13-2-TABLE 
-Importing cleaned/13-4-TABLE 
-Importing cleaned/14-1-TABLE 
-Importing cleaned/14-4-TABLE 
-Importing cleaned/14-5-TABLE 
-Importing cleaned/14-6-TABLE 
 Importing cleaned/15A 
 Importing cleaned/16EX1 
-Importing cleaned/18-1-TABLE 
-Importing cleaned/19-1-TABLE 
-Importing cleaned/19-2-TABLE 
 Importing cleaned/21-7 
 Importing cleaned/22-2 
 Importing cleaned/23-10 
-Importing cleaned/23-2-TABLE 
 Importing cleaned/23-3-3 
 Importing cleaned/23-3-7 
 Importing cleaned/23-7-5 
-Importing cleaned/24-2-TABLE 
-Importing cleaned/25-2-TABLE 
-Importing cleaned/25-3-TABLE 
-Importing cleaned/26-1-TABLE 
 Importing cleaned/E03A 
 Importing cleaned/E03AA 
 Importing cleaned/E03BB 
@@ -238,6 +220,24 @@ Importing cleaned/E24M
 Importing cleaned/E24N 
 Importing cleaned/E24O 
 Importing cleaned/E24P 
+Importing cleaned/T021 
+Importing cleaned/T033 
+Importing cleaned/T081 
+Importing cleaned/T121 
+Importing cleaned/T132 
+Importing cleaned/T134 
+Importing cleaned/T141 
+Importing cleaned/T144 
+Importing cleaned/T145 
+Importing cleaned/T146 
+Importing cleaned/T181 
+Importing cleaned/T191 
+Importing cleaned/T192 
+Importing cleaned/T232 
+Importing cleaned/T242 
+Importing cleaned/T252 
+Importing cleaned/T253 
+Importing cleaned/T261 
 > 
 > ## -------------------
 > ## making roxygen2 doc

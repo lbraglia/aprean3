@@ -1,6 +1,5 @@
 Version 0.6
 ===========
 
-- different from sources but better naming scheme for datasets: dsX... (where
-  X is 'e' for Exercises, 'x' for eXamples, 'q' for eQuations, 'a' for
-  Appendix, 's' for Section)
+* definitive naming scheme for datasets (see ?aprean3)
+* now all the published datasets are packaged

@@ -1,25 +1,10 @@
-note Data for exercise 14c in order Operator dummy X1,
-note Operator dummy X2, coded Line speed and Y
-note The solution corresponds to this but replacement
-note of X2 by the single column shown separately may
-note be thought better. This produces a diagonal X'X.
- 
-    1    1    0   -1    255
-    2    1    0    0    246
-    3    1    0    1    249
-    4    0    1   -1    260
-    5    0    1    0    223
-    6    0    1    1    231
-    7   -1   -1   -1    265
-    8   -1   -1    0    247
-    9   -1   -1    1    256
- 
-    1
-    1
-    1
-   -2
-   -2
-   -2
-    1
-    1
-    1 
+  row      y  operator  speed
+    1    255         1    150
+    2    246         1    175
+    3    249         1    200
+    4    260         2    150
+    5    223         2    175
+    6    231         2    200
+    7    265         3    150
+    8    247         3    175
+    9    256         3    200

@@ -42,23 +42,19 @@ description <- function(x) {
         x,
         perl = TRUE)
   } else
-    ## When everything else fails ...
+    ## When anything else fails ...
     sprintf("%s data", x)
 }
 
 ## ------
 ## Status
 ## ------
-## numbering refers to order given by `make` in cleaned subdir
+TODO <- c("")
+processed <- list.files("cleaned") %without% TODO
 
-TODO <- c("S032", "E05G", "E14C", "E14K", "E22A", "E22C", "E22D", "E23A",
-          "E23E", "E23F", "E23G", "E23H")
-
-processed <- list.files("cleaned") %without% c(TODO, "Makefile")
-
-## ---------------
-## Standard import
-## ---------------
+## ------
+## Import
+## ------
 import.fun <- function(path) {
   cat("Importing", path , "\n")
   res <- read.table(file = path, header = TRUE, fill = TRUE)
@@ -70,24 +66,47 @@ import.fun <- function(path) {
     res <- unname(as.matrix(res))
   } else if (fileName == "E07C") {
     res$x4 <- factor(res$x4, levels = c(-1,1), labels = c("No","Yes"))
+  } else if (fileName == "T032") {
+    res$z <- factor(res$z, levels = 0:1, labels = c("Virgo","Coma"))
   } else if (fileName == "E14B") {
     res <- within(res, {
       tiller <- factor(tiller)
       type <- factor(type, levels = c("w","c"), labels = c("Waldron","Ciano"))
       nrate <- factor(nrate, levels = c(0,50,270))
     })
+  } else if (fileName == "E14C") {
+    res$operator <- factor(res$operator, levels = 1:3)
   } else if (fileName == "E14R") {
     res <- within(res, {
       boot <- factor(boot, levels = c(-1,1), labels = c("A","B"))
       temperature <- factor(temperature)
       subject <- factor(subject)
     })
+  } else if (fileName == "E23E") {
+    res <- within(res, {
+      a <- factor(a, levels = c(-1,1), labels = c("No","Yes"))
+      b <- factor(b, levels = c(-1,1), labels = c("No","Yes"))
+      c <- factor(c, levels = c(-1,1), labels = c("No","Yes"))
+      d <- factor(d, levels = c(-1,1), labels = c("No","Yes"))
+    })
+  } else if (fileName == "E23F") {
+    res <- within(res, {
+      group <- factor(group)
+    })
+  } else if (fileName %in% c("E23G-1","E23G-2")) {
+    res <- within(res, {
+      level <- factor(level)
+      tube <- factor(tube)
+    })
+  } else if (fileName == "E23H") {
+    res <- within(res, {
+      matings <- factor(matings, levels = 1:4,
+                        labels = c("DD","DS","SD","SS"))
+    })
   }
+  ## END Exceptions
   ## Now, attach a bit of metadata (useful in what follows) to the object
   attr(res, "fileName") <- fileName
-  ## data.frame name
-  ## ## prefix a 't' for tables (eg t03-3)
-  ## dfName <- gsub("^(.+)(-TABLE)$", "t\\1" , fileName, perl = TRUE)
   dfName <- gsub("-","_", fileName)
   dfName <- paste0("ds", dfName)
   dfName <- tolower(dfName)
@@ -124,7 +143,6 @@ doc.fun <- function(x){
   if (class(x) == "data.frame")
     Format <- c(Format , "#' \\describe{", makeRdItems(names(x)), "#' }")
 
-  
   ## The source book
   Source <- paste0("#' @source Draper, N.R., Smith, H., (1998) ",
                    "Applied Regression Analyis, 3rd ed., ",
@@ -155,4 +173,3 @@ export.fun <- function(x) {
        compress = "bzip2")
 }
 lapply(dfList, export.fun)
-

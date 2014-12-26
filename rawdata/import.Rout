@@ -42,23 +42,19 @@
 +         x,
 +         perl = TRUE)
 +   } else
-+     ## When everything else fails ...
++     ## When anything else fails ...
 +     sprintf("%s data", x)
 + }
 > 
 > ## ------
 > ## Status
 > ## ------
-> ## numbering refers to order given by `make` in cleaned subdir
+> TODO <- c("")
+> processed <- list.files("cleaned") %without% TODO
 > 
-> TODO <- c("S032", "E05G", "E14C", "E14K", "E22A", "E22C", "E22D", "E23A",
-+           "E23E", "E23F", "E23G", "E23H")
-> 
-> processed <- list.files("cleaned") %without% c(TODO, "Makefile")
-> 
-> ## ---------------
-> ## Standard import
-> ## ---------------
+> ## ------
+> ## Import
+> ## ------
 > import.fun <- function(path) {
 +   cat("Importing", path , "\n")
 +   res <- read.table(file = path, header = TRUE, fill = TRUE)
@@ -70,24 +66,47 @@
 +     res <- unname(as.matrix(res))
 +   } else if (fileName == "E07C") {
 +     res$x4 <- factor(res$x4, levels = c(-1,1), labels = c("No","Yes"))
++   } else if (fileName == "T032") {
++     res$z <- factor(res$z, levels = 0:1, labels = c("Virgo","Coma"))
 +   } else if (fileName == "E14B") {
 +     res <- within(res, {
 +       tiller <- factor(tiller)
 +       type <- factor(type, levels = c("w","c"), labels = c("Waldron","Ciano"))
 +       nrate <- factor(nrate, levels = c(0,50,270))
 +     })
++   } else if (fileName == "E14C") {
++     res$operator <- factor(res$operator, levels = 1:3)
 +   } else if (fileName == "E14R") {
 +     res <- within(res, {
 +       boot <- factor(boot, levels = c(-1,1), labels = c("A","B"))
 +       temperature <- factor(temperature)
 +       subject <- factor(subject)
 +     })
++   } else if (fileName == "E23E") {
++     res <- within(res, {
++       a <- factor(a, levels = c(-1,1), labels = c("No","Yes"))
++       b <- factor(b, levels = c(-1,1), labels = c("No","Yes"))
++       c <- factor(c, levels = c(-1,1), labels = c("No","Yes"))
++       d <- factor(d, levels = c(-1,1), labels = c("No","Yes"))
++     })
++   } else if (fileName == "E23F") {
++     res <- within(res, {
++       group <- factor(group)
++     })
++   } else if (fileName %in% c("E23G-1","E23G-2")) {
++     res <- within(res, {
++       level <- factor(level)
++       tube <- factor(tube)
++     })
++   } else if (fileName == "E23H") {
++     res <- within(res, {
++       matings <- factor(matings, levels = 1:4,
++                         labels = c("DD","DS","SD","SS"))
++     })
 +   }
++   ## END Exceptions
 +   ## Now, attach a bit of metadata (useful in what follows) to the object
 +   attr(res, "fileName") <- fileName
-+   ## data.frame name
-+   ## ## prefix a 't' for tables (eg t03-3)
-+   ## dfName <- gsub("^(.+)(-TABLE)$", "t\\1" , fileName, perl = TRUE)
 +   dfName <- gsub("-","_", fileName)
 +   dfName <- paste0("ds", dfName)
 +   dfName <- tolower(dfName)
@@ -165,12 +184,14 @@ Importing cleaned/E13F
 Importing cleaned/E13G 
 Importing cleaned/E13H 
 Importing cleaned/E14B 
+Importing cleaned/E14C 
 Importing cleaned/E14D 
 Importing cleaned/E14E 
 Importing cleaned/E14F 
 Importing cleaned/E14G 
 Importing cleaned/E14J 
 Importing cleaned/E14L 
+Importing cleaned/E14Q 
 Importing cleaned/E14R 
 Importing cleaned/E14S 
 Importing cleaned/E14T 
@@ -193,11 +214,21 @@ Importing cleaned/E16C
 Importing cleaned/E16D 
 Importing cleaned/E17B 
 Importing cleaned/E19D 
+Importing cleaned/E22A 
 Importing cleaned/E22B 
+Importing cleaned/E22C 
+Importing cleaned/E22D 
 Importing cleaned/E22E 
 Importing cleaned/E22F 
 Importing cleaned/E22G 
+Importing cleaned/E23A-a 
+Importing cleaned/E23A-b 
 Importing cleaned/E23D 
+Importing cleaned/E23E 
+Importing cleaned/E23F 
+Importing cleaned/E23G-1 
+Importing cleaned/E23G-2 
+Importing cleaned/E23H 
 Importing cleaned/E24A 
 Importing cleaned/E24B 
 Importing cleaned/E24C 
@@ -220,6 +251,7 @@ Importing cleaned/S217
 Importing cleaned/S222 
 Importing cleaned/S2310 
 Importing cleaned/T021 
+Importing cleaned/T032 
 Importing cleaned/T033 
 Importing cleaned/T081 
 Importing cleaned/T121 
@@ -264,7 +296,6 @@ Importing cleaned/X161
 +   if (class(x) == "data.frame")
 +     Format <- c(Format , "#' \\describe{", makeRdItems(names(x)), "#' }")
 + 
-+   
 +   ## The source book
 +   Source <- paste0("#' @source Draper, N.R., Smith, H., (1998) ",
 +                    "Applied Regression Analyis, 3rd ed., ",
@@ -697,6 +728,45 @@ NULL
 NULL
 
 [[140]]
+NULL
+
+[[141]]
+NULL
+
+[[142]]
+NULL
+
+[[143]]
+NULL
+
+[[144]]
+NULL
+
+[[145]]
+NULL
+
+[[146]]
+NULL
+
+[[147]]
+NULL
+
+[[148]]
+NULL
+
+[[149]]
+NULL
+
+[[150]]
+NULL
+
+[[151]]
+NULL
+
+[[152]]
+NULL
+
+[[153]]
 NULL
 
 > 
@@ -1135,5 +1205,43 @@ NULL
 [[140]]
 NULL
 
-> 
+[[141]]
+NULL
+
+[[142]]
+NULL
+
+[[143]]
+NULL
+
+[[144]]
+NULL
+
+[[145]]
+NULL
+
+[[146]]
+NULL
+
+[[147]]
+NULL
+
+[[148]]
+NULL
+
+[[149]]
+NULL
+
+[[150]]
+NULL
+
+[[151]]
+NULL
+
+[[152]]
+NULL
+
+[[153]]
+NULL
+
 > 

@@ -1,24 +1,10 @@
-note Data for exercise 23f in order Group and Y
- 
-    1    1     3
-    2    1     4
-    3    1     5
-    4    2     4
-    5    2     6
-    6    2     8
-    7    3     6
-    8    3     8
-    9    3    10
- 
-note Data for exercise 23f in order Z1, Z2 and Y
-
-    1   -1    1   3
-    2   -1    1   4
-    3   -1    1   5
-    4    0   -2   4
-    5    0   -2   6
-    6    0   -2   8
-    7    1    1   6
-    8    1    1   8
-    9    1    1  10
-
+id group z1 z2 y
+    1    1    -1    1     3
+    2    1    -1    1     4
+    3    1    -1    1     5
+    4    2     0   -2     4
+    5    2     0   -2     6
+    6    2     0   -2     8
+    7    3     1    1     6
+    8    3     1    1     8
+    9    3     1    1    10

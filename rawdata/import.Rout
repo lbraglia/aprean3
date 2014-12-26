@@ -6,39 +6,39 @@
 > ## Function for 'extracting' description from naming scheme
 > description <- function(x) {
 +   if (grepl("^E\\d\\d", x, perl = TRUE)) {
-+     ## Exercises match E\n\nXXX
++     ## E - Exercises match
 +     sub("^E(\\d\\d)(.*)" ,
 +         "Dataset for Exercise \\2, Chapter \\1",
 +         x,
 +         perl = TRUE)
-+   } else if (grepl("^T\\d\\d\\d$", x, perl = TRUE)) {
-+     ## Tables
-+     sub("^T(\\d\\d)(\\d)$" ,
++   } else if (grepl("^T\\d\\d\\d{1,2}$", x, perl = TRUE)) {
++     ## T - Tables
++     sub("^T(\\d\\d)(\\d{1,2})$" ,
 +         "Dataset from Table \\1.\\2",
 +         x,
 +         perl = TRUE)
-+   } else if (grepl("^\\d\\dEX\\d$", x, perl = TRUE)) {
-+     ## Examples match \n\nEx\n
-+     sub("^(\\d\\d)EX(.*)$" ,
++   } else if (grepl("^X\\d\\d\\d{1,2}$", x, perl = TRUE)) {
++     ## X - Examples
++     sub("^X(\\d\\d)(\\d{1,2})$" ,
 +         "Dataset for Example \\2, Chapter \\1",
 +         x,
 +         perl = TRUE)
-+   } else if (grepl("^\\d\\d[A-Z]$", x, perl = TRUE)) {
-+     ## Appendixes
-+     sub("^(\\d\\d)([A-Z])$" ,
++   } else if (grepl("^A\\d\\d[A-Z]$", x, perl = TRUE)) {
++     ## A - Appendixes
++     sub("^A(\\d\\d)([A-Z])$" ,
 +         "Dataset for Appendix \\2, Chapter \\1",
 +         x,
 +         perl = TRUE)
-+   } else if (grepl("^\\d\\d-\\d-\\d$", x, perl = TRUE)) {
-+     ## Equations
-+     sub("^(\\d\\d)-(\\d)-(\\d)$" ,
-+         "Dataset for Equation \\1.\\2.\\3",
++   } else if (grepl("^S\\d\\d\\d{1,2}$", x, perl = TRUE)) {
++     ## S - Sections
++     sub("^S(\\d\\d)(\\d{1,2})$" ,
++         "Dataset for Section \\1.\\2",
 +         x,
 +         perl = TRUE)
-+   } else if (grepl("^\\d\\d-\\d{1,2}$", x, perl = TRUE)) {
-+     ## Sections
-+     sub("^(\\d\\d)-(\\d{1,2})$" ,
-+         "Dataset for Section \\1.\\2",
++   } else if (grepl("^Q\\d\\d-\\d-\\d$", x, perl = TRUE)) {
++     ## Q - Equations
++     sub("^Q(\\d\\d)-(\\d)-(\\d)$" ,
++         "Dataset for Equation \\1.\\2.\\3",
 +         x,
 +         perl = TRUE)
 +   } else
@@ -51,7 +51,7 @@
 > ## ------
 > ## numbering refers to order given by `make` in cleaned subdir
 > 
-> TODO <- c("03-2", "E05G", "E14C", "E14K", "E22A", "E22C", "E22D", "E23A",
+> TODO <- c("S032", "E05G", "E14C", "E14K", "E22A", "E22C", "E22D", "E23A",
 +           "E23E", "E23F", "E23G", "E23H")
 > 
 > processed <- list.files("cleaned") %without% c(TODO, "Makefile")
@@ -66,7 +66,7 @@
 +   ## filenam from cleaned directory
 +   fileName <- strsplit(path, "/")[[1]][2]
 +   ## Exceptions to data.frame of fully numeric data here ...
-+   if (fileName == "16EX1") {
++   if (fileName == "X161") {
 +     res <- unname(as.matrix(res))
 +   } else if (fileName == "E07C") {
 +     res$x4 <- factor(res$x4, levels = c(-1,1), labels = c("No","Yes"))
@@ -86,9 +86,9 @@
 +   ## Now, attach a bit of metadata (useful in what follows) to the object
 +   attr(res, "fileName") <- fileName
 +   ## data.frame name
-+   ## prefix a 't' for tables (eg t03-3)
-+   dfName <- gsub("^(.+)(-TABLE)$", "t\\1" , fileName, perl = TRUE)
-+   dfName <- gsub("-","_", dfName)
++   ## ## prefix a 't' for tables (eg t03-3)
++   ## dfName <- gsub("^(.+)(-TABLE)$", "t\\1" , fileName, perl = TRUE)
++   dfName <- gsub("-","_", fileName)
 +   dfName <- paste0("ds", dfName)
 +   dfName <- tolower(dfName)
 +   attr(res, "dfName") <- dfName
@@ -98,16 +98,9 @@
 + }
 > pathList <- as.list( paste0("cleaned", "/", processed) )
 > dfList <- lapply(pathList, import.fun)
-Importing cleaned/01A 
-Importing cleaned/06B 
-Importing cleaned/15A 
-Importing cleaned/16EX1 
-Importing cleaned/21-7 
-Importing cleaned/22-2 
-Importing cleaned/23-10 
-Importing cleaned/23-3-3 
-Importing cleaned/23-3-7 
-Importing cleaned/23-7-5 
+Importing cleaned/A01A 
+Importing cleaned/A06B 
+Importing cleaned/A15A 
 Importing cleaned/E03A 
 Importing cleaned/E03AA 
 Importing cleaned/E03BB 
@@ -220,6 +213,12 @@ Importing cleaned/E24M
 Importing cleaned/E24N 
 Importing cleaned/E24O 
 Importing cleaned/E24P 
+Importing cleaned/Q23-3-3 
+Importing cleaned/Q23-3-7 
+Importing cleaned/Q23-7-5 
+Importing cleaned/S217 
+Importing cleaned/S222 
+Importing cleaned/S2310 
 Importing cleaned/T021 
 Importing cleaned/T033 
 Importing cleaned/T081 
@@ -238,6 +237,7 @@ Importing cleaned/T242
 Importing cleaned/T252 
 Importing cleaned/T253 
 Importing cleaned/T261 
+Importing cleaned/X161 
 > 
 > ## -------------------
 > ## making roxygen2 doc

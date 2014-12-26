@@ -1,8 +1,6 @@
 Version 0.6
 ===========
 
-- better naming scheme for dataset: dsX... , where X is
-  - e, for Examples
-  - q, for eQuations
-  - a, for Appendix
-  - s, for Section
+- different from sources but better naming scheme for datasets: dsX... (where
+  X is 'e' for Exercises, 'x' for eXamples, 'q' for eQuations, 'a' for
+  Appendix, 's' for Section)

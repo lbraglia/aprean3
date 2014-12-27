@@ -4,8 +4,8 @@
 #' This package is an unofficial companion to the textbook "Applied
 #' Regression Analysis" by N.R. Draper and H. Smith (3rd ed., 1998).
 #'
-#' It includes almost all the published datasets, both for easy
-#' reproducibility and algorithms benchmarking purposes.
+#' It includes all the published datasets, both for easy reproducibility
+#' and algorithms benchmarking purposes.
 #'
 #' Dataset names are lowercased and prefixed by \code{dsX}, where \code{X} is:
 #' \itemize{

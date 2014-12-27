@@ -1,4 +1,2 @@
 ^\.travis\.yml$
-^rawdata
-^aprean3\.pdf$
-^appveyor\.yml$
+^rawdata$

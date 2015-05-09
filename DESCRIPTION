@@ -1,12 +1,13 @@
 Package: aprean3
-Title: Datasets from Draper and Smith "Applied Regression Analysis" (3rd ed.,
-    1998)
+Title: Datasets from Draper and Smith "Applied Regression Analysis" (3rd
+    Ed., 1998)
 Version: 1.0.1
-Date: 2015-01-04
-Authors@R: as.person(c("Luca Braglia <lbraglia@gmail.com> [aut, cre]"))
-Description: This package is an unofficial companion to the textbook
-    "Applied Regression Analysis" by N.R. Draper and H. Smith (3rd
-    ed., 1998). See ?aprean3 for more info.
+Date: 2015-05-09
+Authors@R: person("Luca", "Braglia", email = "lbraglia@gmail.com",
+	          role = c("aut", "cre"))
+Description: An unofficial companion to the textbook "Applied Regression
+    Analysis" by N.R. Draper and H. Smith (3rd Ed., 1998) including all the
+    accompanying datasets.
 URL: https://github.com/lbraglia/aprean3
 BugReports: https://github.com/lbraglia/aprean3/issues
 Depends:
